@@ -79,7 +79,7 @@ const PictureViewer = (props) => {
       <div className="flex flex-row px-8 py-0 flex-wrap flex-auto gap-8 items-center justify-center">
         {images.map((images) => (
           <React.Fragment key={images.image}>
-            <div className="basis-1/4 shadow-xl">
+            <div className="basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-purple-300">
               <Image
                 className="rounded-lg"
                 alt="Concord park"
