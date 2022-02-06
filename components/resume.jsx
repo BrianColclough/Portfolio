@@ -62,8 +62,8 @@ const Resume = (props) => {
             </div>
             <div className="indent-8">
               <p>
-                Bachelor's of Science in Computer Science, Software Engineering
-                Concentration
+                Bachelor&apos;s of Science in Computer Science, Software
+                Engineering Concentration
               </p>
               <p>Minor in Environmental Science</p>
               <p>
@@ -74,12 +74,12 @@ const Resume = (props) => {
                   Degree in progress; expected graduation May 2022
                 </li>
                 <li className="pl-3">
-                  The University of North Carolina at Charlotte Dean's List
+                  The University of North Carolina at Charlotte Dean&apos;s List
                   (Fall 2019, Fall 2019, Spring 2021)
                 </li>
                 <li className="pl-3">
-                  The University of North Carolina at Charlotte Chancellor's
-                  List (Spring 2019, Fall 2020, Fall 2021)
+                  The University of North Carolina at Charlotte
+                  Chancellor&apos;s List (Spring 2019, Fall 2020, Fall 2021)
                 </li>
               </ul>
             </div>
@@ -96,7 +96,7 @@ const Resume = (props) => {
                 </li>
                 <li className="pl-3">
                   Currently building movie search application for my capstone
-                  course using API's
+                  course using API&apos;s
                 </li>
               </ul>
             </div>
