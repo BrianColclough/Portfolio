@@ -24,14 +24,14 @@ const Resume = (props) => {
               </li>
               <li>
                 <b className="text-neutral-700">Strong communicator</b> with a
-                deep understadning of deam dynamics and what is needed to
+                deep understanding of team dynamics and what is needed to
                 complete projects on time.
               </li>
               <li>
                 <b className="text-neutral-700">
                   Dedicated to learning and problem solving.
                 </b>{" "}
-                Developing and wriing code out of my comfort zone to learn and
+                Developing and writing code out of my comfort zone to learn and
                 grow as a developer
               </li>
             </ul>

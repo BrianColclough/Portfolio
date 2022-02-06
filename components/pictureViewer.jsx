@@ -7,6 +7,8 @@ import boardwalk from "../assets/bwalk-Feb 01 2022-0010.jpg";
 import leaves from "../assets/FujiRecipeTesting_Nov 24 2021-0033.jpg";
 import plant from "../assets/ConcordParkNov 12 2021-0111.jpg";
 import parkingDeck from "../assets/CampusWalkDiffusion0005Nov 07 2021.jpg";
+import plant1 from "../assets/FujiRecipeTesting_Nov 24 2021-0013.jpg";
+import portrait from "../assets/ConcordParkNov 12 2021-0182.jpg";
 import React, { Fragment } from "react";
 
 const images = [
@@ -18,6 +20,8 @@ const images = [
   { image: leaves },
   { image: plant },
   { image: parkingDeck },
+  { image: plant1 },
+  { image: portrait },
 ];
 
 const PictureViewer = (props) => {
