@@ -4,7 +4,7 @@ const Resume = (props) => {
       <div className="flex items-center flex-col ">
         <div
           className="p-8 font-sans subpixel-antialiased font-normal
-         text-slate-500 w-5/6 justify-center"
+         text-slate-500 w-5/6 justify-center max-w-7xl"
         >
           <p className="text-3xl text-center font-medium">Resume</p>
 
