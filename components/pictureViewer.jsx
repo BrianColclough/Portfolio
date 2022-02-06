@@ -5,6 +5,8 @@ import concordPic2 from "../assets/ConcordParkNov 12 2021-0164.jpg";
 import christmas from "../assets/Xmas-Dec 24 2021-0041.jpg";
 import boardwalk from "../assets/bwalk-Feb 01 2022-0010.jpg";
 import leaves from "../assets/FujiRecipeTesting_Nov 24 2021-0033.jpg";
+import plant from "../assets/ConcordParkNov 12 2021-0111.jpg";
+import parkingDeck from "../assets/CampusWalkDiffusion0005Nov 07 2021.jpg";
 import React, { Fragment } from "react";
 
 const images = [
@@ -14,68 +16,13 @@ const images = [
   { image: christmas },
   { image: boardwalk },
   { image: leaves },
+  { image: plant },
+  { image: parkingDeck },
 ];
 
 const PictureViewer = (props) => {
   return (
     <>
-      {/* <div className="flex flex-row px-8 py-0 flex-wrap flex-auto gap-8 items-center justify-center">
-        <div className="basis-1/4">
-          <Image
-            className="rounded-lg"
-            alt="Concord park"
-            src={concordPic}
-            layout="responsive"
-            objectFit="contain"
-          />
-        </div>
-        <div className="basis-1/4">
-          <Image
-            className="rounded-lg"
-            alt="Concord park"
-            src={concordPic1}
-            layout="responsive"
-            objectFit="contain"
-          />
-        </div>
-        <div className="basis-1/4">
-          <Image
-            className="rounded-lg"
-            alt="Concord park"
-            src={concordPic2}
-            layout="responsive"
-            objectFit="contain"
-          />
-        </div>
-        <div className="basis-1/4">
-          <Image
-            className="rounded-lg"
-            alt="Concord park"
-            src={christmas}
-            layout="responsive"
-            objectFit="contain"
-          />
-        </div>
-        <div className="basis-1/4">
-          <Image
-            className="rounded-lg"
-            alt="Alexis walking on boardwalk"
-            src={boardwalk}
-            layout="responsive"
-            objectFit="contain"
-          />
-        </div>
-        <div className="basis-1/4">
-          <Image
-            className="rounded-lg"
-            alt="Concord park"
-            src={leaves}
-            layout="responsive"
-            objectFit="contain"
-          />
-        </div>
-      </div> */}
-
       <div className="flex flex-row px-8 py-0 flex-wrap flex-auto gap-8 items-center justify-center">
         {images.map((images) => (
           <React.Fragment key={images.image}>
