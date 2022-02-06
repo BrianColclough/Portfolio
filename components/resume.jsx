@@ -19,7 +19,7 @@ const Resume = (props) => {
               <li>
                 <b className="text-neutral-700">Motivated and fast learning</b>{" "}
                 software developer with experience developing web applications,
-                working in teams, and the software devleopment life cycle
+                working in teams, and the Software Devleopment Life Cycle
                 (SDLC).
               </li>
               <li>
@@ -31,8 +31,8 @@ const Resume = (props) => {
                 <b className="text-neutral-700">
                   Dedicated to learning and problem solving.
                 </b>{" "}
-                Developing and writing code out of my comfort zone to learn and
-                grow as a developer
+                Developing and writing code that is outside of my comfort zone
+                to learn and grow as a developer
               </li>
             </ul>
           </div>
@@ -139,7 +139,7 @@ const Resume = (props) => {
             <div className="pt-1">
               Second largest University in North Carolina by enrollment.
               <p>
-                In-between classes I work at the University gym. I have quickly
+                In between classes I work at the University gym. I have quickly
                 improved my communication skills and found ways the facility can
                 better meet patrons needs.
               </p>
