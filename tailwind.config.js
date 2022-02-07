@@ -15,6 +15,9 @@ module.exports = {
       gap: {
         11: "1rem",
       },
+      backgroundImage: {
+        hero: "url('../assets/FujiRecipeTesting_Nov 24 2021-0028.jpg')",
+      },
     },
   },
   plugins: [],

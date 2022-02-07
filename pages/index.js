@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Footer from "../components/footer";
+import Intro from "../components/intro";
 import Layout from "../components/layout";
 import Nav from "../components/nav";
 import Resume from "../components/resume";
@@ -40,6 +41,7 @@ export default function Home() {
       <Resume />
       <Footer /> */}
       <Layout>
+        <Intro />
         <Resume />
       </Layout>
     </>
