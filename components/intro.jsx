@@ -1,6 +1,5 @@
 import Image from "next/image";
 import headshot from "../assets/Uptown-Dec 03 2021-0188.jpg";
-import botanicalGardens from "../assets/FujiRecipeTesting_Nov 24 2021-0028.jpg";
 
 const Intro = (props) => {
   return (
