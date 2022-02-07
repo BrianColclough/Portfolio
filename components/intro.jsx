@@ -18,7 +18,7 @@ const Intro = (props) => {
             />
           </div>
           <div
-            className="backdrop-blur-md rounded-full p-2 text-slate-200 
+            className="backdrop-blur-md rounded-2xl p-2 text-slate-200 
           text-center basis-1/2 font-medium"
           >
             Hello! Im Brian Colclough, an aspiring software engineer! I am
