@@ -9,39 +9,57 @@ import plant from "../assets/ConcordParkNov 12 2021-0111.jpg";
 import parkingDeck from "../assets/CampusWalkDiffusion0005Nov 07 2021.jpg";
 import plant1 from "../assets/FujiRecipeTesting_Nov 24 2021-0013.jpg";
 import portrait from "../assets/ConcordParkNov 12 2021-0182.jpg";
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
+import SinglePicture from "./singlePicture";
+import Grid from "./pictures/grid";
 
-const images = [
-  { image: concordPic },
-  { image: concordPic1 },
-  { image: concordPic2 },
-  { image: christmas },
-  { image: boardwalk },
-  { image: leaves },
-  { image: plant },
-  { image: parkingDeck },
-  { image: plant1 },
-  { image: portrait },
+const imageList = [
+  { image: concordPic, id: 1 },
+  { image: concordPic1, id: 2 },
+  { image: concordPic2, id: 3 },
+  { image: christmas, id: 4 },
+  { image: boardwalk, id: 5 },
+  { image: leaves, id: 6 },
+  { image: plant, id: 7 },
+  { image: parkingDeck, id: 8 },
+  { image: plant1, id: 9 },
+  { image: portrait, id: 10 },
 ];
 
-const PictureViewer = (props) => {
+const pictureviewer = (props) => {
+  //   const [pictureisopen, setpictureisopen] = usestate(false);
+
+  //   function openhandler() {
+  //     setpictureisopen(true);
+  //   }
+  //   function closehandler() {
+  //     setpictureisopen(false);
+  //   }
+
   return (
     <>
-      <div className="flex flex-row px-8 py-0 flex-wrap flex-auto gap-8 items-center justify-center">
-        {images.map((images) => (
-          <React.Fragment key={images.image}>
+      <Grid>
+        {imageList.map((images) => (
+          <React.Fragment key={images}>
             <div className="basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-purple-300">
               <Image
                 className="rounded-lg"
                 alt="Concord park"
-                src={images.image}
+                src={imageList.image}
                 layout="responsive"
                 objectFit="contain"
+                onClick={openHandler}
               />
             </div>
+            {pictureIsOpen && (
+              <SinglePicture
+                onClose={closeHandler}
+                image={imageList[1].image}
+              />
+            )}
           </React.Fragment>
         ))}
-      </div>
+      </Grid>
     </>
   );
 };
