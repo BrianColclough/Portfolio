@@ -10,23 +10,22 @@ import parkingDeck from "../assets/CampusWalkDiffusion0005Nov 07 2021.jpg";
 import plant1 from "../assets/FujiRecipeTesting_Nov 24 2021-0013.jpg";
 import portrait from "../assets/ConcordParkNov 12 2021-0182.jpg";
 import React, { Fragment, useState } from "react";
-import SinglePicture from "./singlePicture";
 import Grid from "./pictures/grid";
 
 const imageList = [
-  { image: concordPic, id: 1 },
-  { image: concordPic1, id: 2 },
-  { image: concordPic2, id: 3 },
-  { image: christmas, id: 4 },
-  { image: boardwalk, id: 5 },
-  { image: leaves, id: 6 },
-  { image: plant, id: 7 },
-  { image: parkingDeck, id: 8 },
-  { image: plant1, id: 9 },
-  { image: portrait, id: 10 },
+  { image: concordPic },
+  { image: concordPic1 },
+  { image: concordPic2 },
+  { image: christmas },
+  { image: boardwalk },
+  { image: leaves },
+  { image: plant },
+  { image: parkingDeck },
+  { image: plant1 },
+  { image: portrait },
 ];
 
-const pictureviewer = (props) => {
+const PictureViewer = (props) => {
   //   const [pictureisopen, setpictureisopen] = usestate(false);
 
   //   function openhandler() {
@@ -45,18 +44,18 @@ const pictureviewer = (props) => {
               <Image
                 className="rounded-lg"
                 alt="Concord park"
-                src={imageList.image}
+                src={images.image}
                 layout="responsive"
                 objectFit="contain"
-                onClick={openHandler}
+                // onClick={openHandler}
               />
             </div>
-            {pictureIsOpen && (
+            {/* {pictureIsOpen && (
               <SinglePicture
                 onClose={closeHandler}
                 image={imageList[1].image}
               />
-            )}
+            )} */}
           </React.Fragment>
         ))}
       </Grid>
