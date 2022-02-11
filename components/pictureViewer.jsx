@@ -11,6 +11,7 @@ import plant1 from "../assets/FujiRecipeTesting_Nov 24 2021-0013.jpg";
 import portrait from "../assets/ConcordParkNov 12 2021-0182.jpg";
 import React, { Fragment, useState } from "react";
 import Grid from "./pictures/grid";
+import Picture from "./picture";
 
 const imageList = [
   { image: concordPic },
@@ -26,38 +27,19 @@ const imageList = [
 ];
 
 const PictureViewer = (props) => {
-  //   const [pictureisopen, setpictureisopen] = usestate(false);
-
-  //   function openhandler() {
-  //     setpictureisopen(true);
-  //   }
-  //   function closehandler() {
-  //     setpictureisopen(false);
-  //   }
-
   return (
     <>
       <Grid>
-        {imageList.map((images) => (
-          <React.Fragment key={images}>
-            <div className="basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-purple-300">
-              <Image
-                className="rounded-lg"
-                alt="Concord park"
-                src={images.image}
-                layout="responsive"
-                objectFit="contain"
-                // onClick={openHandler}
-              />
-            </div>
-            {/* {pictureIsOpen && (
-              <SinglePicture
-                onClose={closeHandler}
-                image={imageList[1].image}
-              />
-            )} */}
-          </React.Fragment>
-        ))}
+        <Picture image={concordPic} />
+        <Picture image={concordPic1} />
+        <Picture image={concordPic2} />
+        <Picture image={christmas} />
+        <Picture image={boardwalk} />
+        <Picture image={leaves} />
+        <Picture image={plant} />
+        <Picture image={parkingDeck} />
+        <Picture image={plant1} />
+        <Picture image={portrait} />
       </Grid>
     </>
   );
