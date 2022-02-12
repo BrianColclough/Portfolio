@@ -17,7 +17,7 @@ const Picture = (props) => {
       <div className="basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-purple-300">
         <Image
           className="rounded-lg"
-          alt="this is a test"
+          alt={props.alt}
           src={props.image}
           layout="responsive"
           objectFit="contain"

@@ -13,33 +13,26 @@ import React, { Fragment, useState } from "react";
 import Grid from "./pictures/grid";
 import Picture from "./picture";
 
-const imageList = [
-  { image: concordPic },
-  { image: concordPic1 },
-  { image: concordPic2 },
-  { image: christmas },
-  { image: boardwalk },
-  { image: leaves },
-  { image: plant },
-  { image: parkingDeck },
-  { image: plant1 },
-  { image: portrait },
-];
-
 const PictureViewer = (props) => {
   return (
     <>
       <Grid>
-        <Picture image={concordPic} />
-        <Picture image={concordPic1} />
-        <Picture image={concordPic2} />
-        <Picture image={christmas} />
-        <Picture image={boardwalk} />
-        <Picture image={leaves} />
-        <Picture image={plant} />
-        <Picture image={parkingDeck} />
-        <Picture image={plant1} />
-        <Picture image={portrait} />
+        <Picture
+          image={concordPic}
+          href={"picture of leaves in a park in corcord"}
+        />
+        <Picture image={concordPic1} alt={"picture of music shop"} />
+        <Picture image={concordPic2} alt={"picture of park house"} />
+        <Picture image={christmas} alt={"picture of pit bull eating"} />
+        <Picture
+          image={boardwalk}
+          alt={"picture of girl walking on boardwalk"}
+        />
+        <Picture image={leaves} alt={"Leaves at UNCC botanical garden"} />
+        <Picture image={plant} alt={"picture of plant in concord park"} />
+        <Picture image={parkingDeck} alt={"parking deck at uncc"} />
+        <Picture image={plant1} alt={"Picture from UnCC botanical gardens"} />
+        <Picture image={portrait} alt={"Portrait in Concord"} />
       </Grid>
     </>
   );
