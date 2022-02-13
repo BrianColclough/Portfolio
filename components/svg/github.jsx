@@ -2,7 +2,7 @@ const GithubSVG = (propos) => {
   return (
     <a href="https://github.com/BrianColclough/Portfolio">
       <svg
-        className="h-5 "
+        className="sm:transition sm:hover:scale-110 sm:rounded-lg hover:fill-purple-400 h-5"
         viewBox="0 0 16 16"
         fill="currentColor"
         aria-hidden="true"
