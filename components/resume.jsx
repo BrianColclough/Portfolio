@@ -4,7 +4,7 @@ const Resume = (props) => {
       <div className="flex items-center flex-col ">
         <div
           className="p-8 font-sans subpixel-antialiased font-normal
-         text-slate-500 w-5/6 justify-center max-w-7xl"
+         text-slate-500 sm:w-5/6 justify-center sm:max-w-7xl max-w-full"
         >
           <p className="text-3xl text-center font-medium">Resume</p>
 
@@ -125,14 +125,14 @@ const Resume = (props) => {
             <p className="text-2xl pt-2 text-purple-400 font-medium ">
               Work History
             </p>
-            <div className="flex text-xl font-medium items-baseline">
-              <div className="basis-10/12">
+            <div className="flex flex-col text-xl font-medium sm:flex-row sm:gap-3 items-baseline">
+              <div className="sm:basis-10/12">
                 <span className="underline">
                   The University of North Carolina at Charlotte,
                 </span>
                 <span className="font-normal"> Charlotte, NC</span>
               </div>
-              <div className="basis-2/12 font-normal text-purple-400 italic text-lg text-right">
+              <div className="sm:basis-2/12 font-normal text-purple-400 italic text-lg sm:text-right sm:pb-0 pb-2">
                 2021-Present
               </div>
             </div>
