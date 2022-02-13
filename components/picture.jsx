@@ -14,7 +14,7 @@ const Picture = (props) => {
 
   return (
     <>
-      <div className="basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-purple-300">
+      <div className="basis-full sm:basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-purple-300">
         <Image
           className="rounded-lg"
           alt={props.alt}

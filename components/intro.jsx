@@ -5,10 +5,10 @@ const Intro = (props) => {
   return (
     <>
       <div className="bg-hero bg-cover bg-fixed flex justify-center">
-        <div className="flex h-96 flex-row justify-center items-center p-8 gap-x-20 max-w-7xl">
-          <div className="basis-1/4 h-auto">
+        <div className="flex sm:h-96 sm:flex-row sm:justify-center items-center p-8 sm:gap-x-20 flex-col max-w-7xl">
+          <div className="sm:basis-1/4 h-auto w-40 py-6">
             <Image
-              className="rounded-full mx-h-60"
+              className="rounded-full"
               alt="Concord park"
               src={headshot}
               layout="responsive"

@@ -52,15 +52,15 @@ const Resume = (props) => {
             <p className="text-2xl pt-2 text-purple-400 font-medium ">
               Education
             </p>
-            <div className="flex flex-row gap-3 items-baseline">
+            <div className="flex flex-col sm:flex-row sm:gap-3 items-baseline">
               <div className="text-lg font-medium basis-10/12">
                 The University of North Carolina at Charlotte
               </div>
-              <div className="basis-2/12 text-purple-400 text-light italic text-lg text-right">
+              <div className="basis-2/12 text-purple-400 text-light italic text-lg pb-2 sm:pb-0 text-right">
                 2018-Present
               </div>
             </div>
-            <div className="indent-8">
+            <div className="sm:indent-8">
               <p>
                 Bachelor&apos;s of Science in Computer Science, Software
                 Engineering Concentration

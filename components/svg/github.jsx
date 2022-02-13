@@ -2,7 +2,7 @@ const GithubSVG = (propos) => {
   return (
     <a href="https://github.com/BrianColclough/Portfolio">
       <svg
-        className="h-5 px-6"
+        className="h-5 "
         viewBox="0 0 16 16"
         fill="currentColor"
         aria-hidden="true"

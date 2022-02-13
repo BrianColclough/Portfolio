@@ -9,7 +9,7 @@ const Layout = (props) => {
         <title>Brian Colclough</title>
         <meta
           name="description"
-          content="Personal website and portfolio for Brian Colclough"
+          content="Personal website and portfolio for Brian Colclough "
         />
         <link
           rel="icon"
