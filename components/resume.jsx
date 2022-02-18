@@ -52,7 +52,7 @@ const Resume = (props) => {
             <p className="text-2xl pt-2 text-purple-400 font-medium ">
               Education
             </p>
-            <div className="flex flex-col sm:flex-row sm:gap-3 items-baseline">
+            <div className="flex flex-col md:flex-row md:gap-3 items-baseline">
               <div className="text-lg font-medium basis-10/12">
                 The University of North Carolina at Charlotte
               </div>
@@ -125,7 +125,7 @@ const Resume = (props) => {
             <p className="text-2xl pt-2 text-purple-400 font-medium ">
               Work History
             </p>
-            <div className="flex flex-col text-xl font-medium sm:flex-row sm:gap-3 items-baseline">
+            <div className="flex flex-col text-xl font-medium md:flex-row md:gap-3 items-baseline">
               <div className="sm:basis-10/12">
                 <span className="underline">
                   The University of North Carolina at Charlotte,
