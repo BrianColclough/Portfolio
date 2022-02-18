@@ -5,9 +5,9 @@ const Viewer = (props) => {
     props.onClose();
   }
   return (
-    <div className="fixed top-0 left-0 w-full h-full z-10 ">
+    <div className="fixed top-0 left-0 w-full h-full z-10">
       <Image
-        className="backdrop-blur-2xl z-10 "
+        className="backdrop-blur-2xl"
         alt="this is a test"
         src={props.image}
         layout="fill"

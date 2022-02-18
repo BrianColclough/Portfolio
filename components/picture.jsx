@@ -5,8 +5,8 @@ import Viewer from "./viewer";
 const Picture = (props) => {
   const [pictureIsOpen, setPictureisOpen] = useState(false);
 
-  function openHandler() {
-    setPictureisOpen(true);
+  function clickHandler() {
+    props.handleClick();
   }
   function closeHandler() {
     setPictureisOpen(false);
@@ -21,10 +21,10 @@ const Picture = (props) => {
           src={props.image}
           layout="responsive"
           objectFit="contain"
-          onClick={openHandler}
+          onClick={clickHandler}
         />
       </div>
-      {pictureIsOpen && <Viewer onClose={closeHandler} image={props.image} />}
+      {/* {pictureIsOpen && <Viewer onClose={closeHandler} image={props.image} />} */}
     </>
   );
 };

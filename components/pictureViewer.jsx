@@ -14,26 +14,76 @@ import Grid from "./pictures/grid";
 import Picture from "./picture";
 
 const PictureViewer = (props) => {
+  const [viewPicture, setViewPicture] = useState(false);
+  let pictureIndex = 0;
+
+  function handleClick(index) {
+    setViewPicture(!viewPicture);
+    pictureIndex = index;
+  }
+
+  function LargePicture(props) {
+    return (
+      <>
+        <div
+          className="flex w-screen h-screen content-center items-center "
+          onClick={handleClick}
+        >
+          <Image
+            className="z-10"
+            src={concordPic}
+            alt="this is a test"
+            layout="fill"
+            objectFit="scale-down"
+          />
+        </div>
+      </>
+    );
+  }
+
+  function PictureGrid(props) {
+    return (
+      <>
+        <Grid>
+          <Picture
+            image={concordPic}
+            href={"picture of leaves in a park in corcord"}
+            handleClick={handleClick}
+          />
+          <Picture
+            onClick={handleClick}
+            image={concordPic1}
+            alt={"picture of music shop"}
+          />
+          <Picture
+            onClick={handleClick}
+            image={concordPic2}
+            alt={"picture of park house"}
+          />
+          <Picture
+            onClick={handleClick}
+            image={christmas}
+            alt={"picture of pit bull eating"}
+          />
+          <Picture
+            image={boardwalk}
+            alt={"picture of girl walking on boardwalk"}
+          />
+          <Picture image={leaves} alt={"Leaves at UNCC botanical garden"} />
+          <Picture image={plant} alt={"picture of plant in concord park"} />
+          <Picture image={parkingDeck} alt={"parking deck at uncc"} />
+          <Picture image={plant1} alt={"Picture from UnCC botanical gardens"} />
+          <Picture image={portrait} alt={"Portrait in Concord"} />
+        </Grid>
+        ;
+      </>
+    );
+  }
+
   return (
     <>
-      <Grid>
-        <Picture
-          image={concordPic}
-          href={"picture of leaves in a park in corcord"}
-        />
-        <Picture image={concordPic1} alt={"picture of music shop"} />
-        <Picture image={concordPic2} alt={"picture of park house"} />
-        <Picture image={christmas} alt={"picture of pit bull eating"} />
-        <Picture
-          image={boardwalk}
-          alt={"picture of girl walking on boardwalk"}
-        />
-        <Picture image={leaves} alt={"Leaves at UNCC botanical garden"} />
-        <Picture image={plant} alt={"picture of plant in concord park"} />
-        <Picture image={parkingDeck} alt={"parking deck at uncc"} />
-        <Picture image={plant1} alt={"Picture from UnCC botanical gardens"} />
-        <Picture image={portrait} alt={"Portrait in Concord"} />
-      </Grid>
+      {viewPicture && <LargePicture />}
+      {!viewPicture && <PictureGrid />}
     </>
   );
 };
