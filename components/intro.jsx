@@ -26,9 +26,10 @@ const Intro = (props) => {
               Brian Colclough
             </span>
             , an aspiring software engineer! I am currently a student at The
-            University of North Carolina at Charlotte and am expecting to
-            graduate in May 2022. I am currently looking for internships and or
-            other full-time opportunities to grow and learn.
+            University of North Carolina at Charlotte and I&apos;m expecting to
+            graduate in May 2022. I am activly looking for internships and or
+            other full-time opportunities to grow and learn. Currently, I am
+            learning React and Go.
           </div>
         </div>
       </div>

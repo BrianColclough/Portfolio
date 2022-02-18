@@ -42,8 +42,8 @@ const Resume = (props) => {
               Skills
             </div>
             <div>
-              JavaScript, Java, React, Python, Node.js, HTML5, CSS, Restful web
-              services, Web Development, TailwindCSS, C++, SQL, Git,
+              JavaScript, Java, React, Python, Node.js, Go, HTML5, CSS, Restful
+              web services, Web Development, TailwindCSS, C++, SQL, Git,
               Communication, Agile
             </div>
           </div>
