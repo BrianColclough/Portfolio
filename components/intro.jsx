@@ -25,11 +25,11 @@ const Intro = (props) => {
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
               Brian Colclough
             </span>
-            , an aspiring software engineer! I am currently a student at The
-            University of North Carolina at Charlotte and I&apos;m expecting to
-            graduate in May 2022. I am activly looking for internships and or
-            other full-time opportunities to grow and learn. Currently, I am
-            learning React and Go.
+            , an aspiring software engineer and amature photographer! I am
+            currently a student at The University of North Carolina at Charlotte
+            and I&apos;m expecting to graduate in May 2022. I am activly looking
+            for internships and or other full-time opportunities to grow and
+            learn. Currently, I am learning React and Go.
           </div>
         </div>
       </div>
