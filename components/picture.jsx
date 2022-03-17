@@ -6,6 +6,7 @@ const Picture = (props) => {
   const [pictureIsOpen, setPictureisOpen] = useState(false);
 
   function openHandler() {
+    document.body.style.overflow = "hidden";
     setPictureisOpen(true);
   }
   function closeHandler() {
