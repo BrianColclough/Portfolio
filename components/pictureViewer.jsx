@@ -9,6 +9,11 @@ import plant from "../assets/ConcordParkNov 12 2021-0111.jpg";
 import parkingDeck from "../assets/CampusWalkDiffusion0005Nov 07 2021.jpg";
 import plant1 from "../assets/FujiRecipeTesting_Nov 24 2021-0013.jpg";
 import portrait from "../assets/ConcordParkNov 12 2021-0182.jpg";
+import spring1 from "../assets/springBreak01.jpg";
+import spring2 from "../assets/springBreak02.jpg";
+import spring3 from "../assets/springBreak03.jpg";
+import spring4 from "../assets/springBreak04.jpg";
+
 import React, { Fragment, useState } from "react";
 import Grid from "./pictures/grid";
 import Picture from "./picture";
@@ -33,6 +38,10 @@ const PictureViewer = (props) => {
         <Picture image={parkingDeck} alt={"parking deck at uncc"} />
         <Picture image={plant1} alt={"Picture from UnCC botanical gardens"} />
         <Picture image={portrait} alt={"Portrait in Concord"} />
+        <Picture image={spring1} alt={"Historic house in Wilmington"} />
+        <Picture image={spring2} alt={"Historic house in Wilmington2"} />
+        <Picture image={spring3} alt={"Grass by the water"} />
+        <Picture image={spring4} alt={"Flowers in garden"} />
       </Grid>
     </>
   );
