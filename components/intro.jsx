@@ -15,6 +15,7 @@ const Intro = (props) => {
               objectFit="contain"
               objectPosition="50% 50%"
               sizes="50vw"
+              priority
             />
           </div>
           <div

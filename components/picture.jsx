@@ -12,24 +12,43 @@ const Picture = (props) => {
   function closeHandler() {
     setPictureisOpen(false);
   }
-
-  return (
-    <>
-      <div className="basis-full sm:transition sm:hover:scale-105 sm:basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-purple-300">
-        <Image
-          className="rounded-lg"
-          alt={props.alt}
-          src={props.image}
-          layout="responsive"
-          objectFit="contain"
-          width="300px"
-          height="300px"
-          onClick={openHandler}
-        />
-      </div>
-      {pictureIsOpen && <Viewer onClose={closeHandler} image={props.image} />}
-    </>
-  );
+  if (props.height > props.width) {
+    return (
+      <>
+        <div className="basis-full bg-transparent sm:transition sm:hover:scale-105 sm:basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-purple-300">
+          <Image
+            className="rounded-lg "
+            alt={props.alt}
+            src={props.image}
+            layout="responsive"
+            objectFit="contain"
+            width={props.width}
+            height={props.height}
+            onClick={openHandler}
+          />
+        </div>
+        {pictureIsOpen && <Viewer onClose={closeHandler} image={props.image} />}
+      </>
+    );
+  } else {
+    return (
+      <>
+        <div className="basis-full bg-transparent sm:transition sm:hover:scale-105 sm:basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-purple-300">
+          <Image
+            className="rounded-lg "
+            alt={props.alt}
+            src={props.image}
+            layout="responsive"
+            objectFit="contain"
+            width={props.width}
+            height={props.height}
+            onClick={openHandler}
+          />
+        </div>
+        {pictureIsOpen && <Viewer onClose={closeHandler} image={props.image} />}
+      </>
+    );
+  }
 };
 
 export default Picture;
