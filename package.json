@@ -10,16 +10,17 @@
   "dependencies": {
     "next": "12",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "styled-components": "^5.3.3"
+
+    "react-dom": "^18.0.0"
+
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
+    "autoprefixer": "^10.4.4",
     "babel-plugin-styled-components": "^2.0.2",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
-    "postcss": "^8.4.6",
-    "tailwindcss": "^3.0.18"
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
   },
   "resolutions": {
     "styled-components": "^5"
