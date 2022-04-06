@@ -1,6 +1,6 @@
 {
   "name": "personal-website",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "next": "12",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
@@ -23,5 +23,11 @@
   },
   "resolutions": {
     "styled-components": "^5"
-  }
+  },
+  "version": "1.0.0",
+  "description": "Personal website for Brian Colclough",
+  "main": "index.js",
+  "repository": "https://github.com/BrianColclough/Portfolio.git",
+  "author": "Brian Colclough <brianmcolclough@gmail.com>",
+  "license": "MIT"
 }
