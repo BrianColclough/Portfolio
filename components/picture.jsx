@@ -22,6 +22,8 @@ const Picture = (props) => {
           src={props.image}
           layout="responsive"
           objectFit="contain"
+          width="300px"
+          height="300px"
           onClick={openHandler}
         />
       </div>
