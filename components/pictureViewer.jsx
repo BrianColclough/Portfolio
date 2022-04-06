@@ -65,6 +65,30 @@ const PictureViewer = (props) => {
           height={200}
           width={300}
         />
+        <Picture
+          image="/assets/springBreak01.jpg"
+          alt={"Portrait in Concord"}
+          height={300}
+          width={200}
+        />
+        <Picture
+          image="/assets/springBreak02.jpg"
+          alt={"Portrait in Concord"}
+          height={300}
+          width={200}
+        />
+        <Picture
+          image="/assets/springBreak03.jpg"
+          alt={"Portrait in Concord"}
+          height={200}
+          width={300}
+        />
+        <Picture
+          image="/assets/springBreak04.jpg"
+          alt={"Portrait in Concord"}
+          height={200}
+          width={300}
+        />
       </div>
     </>
   );

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import headshot from "../assets/Uptown-Dec 03 2021-0188.jpg";
 
 const Intro = (props) => {
   return (
@@ -10,11 +9,12 @@ const Intro = (props) => {
             <Image
               className="rounded-full"
               alt="Concord park"
-              src={headshot}
+              src="/assets/Uptown-Dec 03 2021-0188.jpg"
               layout="responsive"
               objectFit="contain"
               objectPosition="50% 50%"
-              sizes="50vw"
+              width="50vw"
+              height="50vw"
               priority
             />
           </div>

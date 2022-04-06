@@ -25,6 +25,7 @@ const Picture = (props) => {
             width={props.width}
             height={props.height}
             onClick={openHandler}
+            quality={70}
           />
         </div>
         {pictureIsOpen && <Viewer onClose={closeHandler} image={props.image} />}
@@ -43,6 +44,7 @@ const Picture = (props) => {
             width={props.width}
             height={props.height}
             onClick={openHandler}
+            quality={70}
           />
         </div>
         {pictureIsOpen && <Viewer onClose={closeHandler} image={props.image} />}

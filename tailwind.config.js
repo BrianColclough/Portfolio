@@ -16,7 +16,7 @@ module.exports = {
         11: "1rem",
       },
       backgroundImage: {
-        hero: "url('../assets/FujiRecipeTesting_Nov 24 2021-0028.jpg')",
+        hero: "url('/assets/FujiRecipeTesting_Nov 24 2021-0028.jpg')",
       },
     },
   },
