@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "next": "12",
+    "next-optimized-images": "^2.6.2",
     "react": "^18.0.0",
-
-    "react-dom": "^18.0.0"
-
+    "react-dom": "^18.0.0",
+    "webp-loader": "^0.6.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",

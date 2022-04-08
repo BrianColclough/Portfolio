@@ -9,7 +9,7 @@ const Intro = (props) => {
             <Image
               className="rounded-full"
               alt="Concord park"
-              src="/assets/Uptown-Dec 03 2021-0188.jpg"
+              src="/assets/Uptown-Dec 03 2021-0188.jpg?webp"
               layout="responsive"
               objectFit="contain"
               objectPosition="50% 50%"
