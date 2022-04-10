@@ -5,7 +5,7 @@ function CurrentlyLearning() {
     <>
       <div className="flex justify-center subpixel-antialiased sm:leading-relaxed">
         <div className=" mx-2 mt-4 max-w-5xl rounded-2xl shadow-xl">
-          <div className="text-slate-800 bg-ui-blue rounded-t-2xl font-sans py-2 text-xl text-center underline decoration-ui-pink underline-offset-2">
+          <div className="text-slate-800 bg-ui-orange/50 rounded-t-2xl font-sans py-2 text-xl text-center underline decoration-ui-pink underline-offset-2">
             Currently Learning
           </div>
           <div className="flex text-center justify-items-center sm:text-left sm:justify-center sm:items-center py-1">
