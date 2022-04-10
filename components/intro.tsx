@@ -3,7 +3,7 @@ import Image from "next/image";
 const Intro = (props) => {
   return (
     <>
-      <div className="relative">
+      <section className="relative">
         <Image
           layout="fill"
           objectFit="cover"
@@ -45,7 +45,7 @@ const Intro = (props) => {
             </div>
           </div>
         </article>
-      </div>
+      </section>
     </>
   );
 };
