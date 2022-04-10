@@ -3,6 +3,8 @@ import Image from "next/image";
 import Viewer from "./viewer";
 
 const Picture = (props) => {
+  type pictureIsOpen = boolean;
+
   const [pictureIsOpen, setPictureisOpen] = useState(false);
 
   function openHandler() {
