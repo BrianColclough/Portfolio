@@ -4,7 +4,7 @@ import GithubSVG from "./svg/github";
 const Nav = (props) => {
   return (
     <>
-      <div className="font-sans text-lg text-slate-800 flex flex-row justify-center items-center gap-4">
+      <nav className="font-sans text-lg text-ui-navy flex flex-row justify-center items-center gap-4">
         <Link href="/">
           <a className="sm:transition sm:rounded-lg sm:ease-in-out sm:delay-75 sm:px-2 sm:hover:scale-110 hover:text-ui-purple ">
             Home
@@ -16,7 +16,7 @@ const Nav = (props) => {
           </a>
         </Link>
         <GithubSVG />
-      </div>
+      </nav>
     </>
   );
 };

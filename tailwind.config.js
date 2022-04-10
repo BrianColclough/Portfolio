@@ -19,9 +19,10 @@ module.exports = {
       },
       colors: {
         "ui-blue": "#a1d9ff",
-        "ui-purple": "#ca82f8",
-        "ui-pink": "#ed93cb",
-        "ui-orange": "#f2bbbb",
+        "ui-purple": "#B000B9",
+        "ui-pink": "#FF5F7E",
+        "ui-orange": "#FFAB4C",
+        "ui-navy": "#142F43",
       },
     },
   },

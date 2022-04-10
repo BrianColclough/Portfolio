@@ -3,12 +3,12 @@ import Image from "next/image";
 const Intro = (props) => {
   return (
     <>
-      <div className="bg-hero bg-cover bg-fixed flex justify-center sm:leading-relaxed">
+      <article className="bg-hero bg-cover bg-fixed flex justify-center sm:leading-relaxed">
         <div className="flex sm:h-96 sm:flex-row sm:justify-center items-center p-8 sm:gap-x-20 flex-col max-w-7xl">
           <div className="sm:basis-1/4 h-auto w-40 py-6">
             <Image
               className="rounded-full"
-              alt="Concord park"
+              alt="Headshot of Brian Colclough"
               src="/assets/Uptown-Dec 03 2021-0188.jpg?webp"
               layout="responsive"
               objectFit="contain"
@@ -33,7 +33,7 @@ const Intro = (props) => {
             great developer
           </div>
         </div>
-      </div>
+      </article>
     </>
   );
 };

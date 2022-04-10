@@ -1,12 +1,14 @@
 const Resume = (props) => {
   return (
     <>
-      <div className="flex items-center flex-col sm:leading-relaxed">
+      <section className="flex items-center flex-col sm:leading-relaxed">
         <div
           className="p-8 font-sans subpixel-antialiased font-normal
          text-slate-600 sm:w-5/6 justify-center sm:max-w-7xl max-w-full"
         >
-          <p className="text-3xl text-center font-medium">Resume</p>
+          <h2 className="text-3xl text-center font-medium text-ui-navy">
+            Resume
+          </h2>
 
           <div>
             <div className="text-2xl text-ui-purple font-medium pb-0">
@@ -17,18 +19,18 @@ const Resume = (props) => {
             </div>
             <ul className="list-inside list-disc">
               <li>
-                <b className="text-neutral-700">Motivated and fast learning</b>{" "}
+                <b className="text-ui-navy">Motivated and fast learning</b>{" "}
                 software developer with experience developing web applications,
                 working in teams, and the Software Devleopment Life Cycle
                 (SDLC).
               </li>
               <li>
-                <b className="text-neutral-700">Strong communicator</b> with a
-                deep understanding of team dynamics and what is needed to
-                complete projects on time.
+                <b className="text-ui-navy">Strong communicator</b> with a deep
+                understanding of team dynamics and what is needed to complete
+                projects on time.
               </li>
               <li>
-                <b className="text-neutral-700">
+                <b className="text-ui-navy">
                   Dedicated to learning and problem solving.
                 </b>{" "}
                 Developing and writing code that is outside of my comfort zone
@@ -143,9 +145,7 @@ const Resume = (props) => {
                 improved my communication skills and found ways the facility can
                 better meet patrons needs.
               </p>
-              <p className="italic text-neutral-700 font-medium">
-                Patron Service Assistant
-              </p>
+              <p className="italic text-ui-navy">Patron Service Assistant</p>
               <ul className="list-disc list-inside">
                 <li className="pl-3">
                   Interact with patrons for knowledge on how the facility can be
@@ -158,7 +158,7 @@ const Resume = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

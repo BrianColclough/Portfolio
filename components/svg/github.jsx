@@ -2,7 +2,7 @@ const GithubSVG = (props) => {
   return (
     <a href="https://github.com/BrianColclough/Portfolio">
       <svg
-        className="sm:transition sm:hover:scale-110 sm:rounded-lg hover:fill-ui-purple h-5"
+        className="sm:transition text-ui-navy sm:hover:scale-110 sm:rounded-lg hover:fill-ui-purple h-5"
         viewBox="0 0 16 16"
         fill="currentColor"
         aria-hidden="true"

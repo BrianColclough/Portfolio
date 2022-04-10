@@ -4,7 +4,7 @@ import Picture from "./picture";
 const PictureViewer = (props) => {
   return (
     <>
-      <div className="flex flex-col sm:px-8 sm:py-0 sm:flex-row sm:flex-wrap gap-8 sm:items-center sm:justify-center py-2 px-2">
+      <section className="flex flex-col sm:px-8 sm:py-0 sm:flex-row sm:flex-wrap gap-8 sm:items-center sm:justify-center py-2 px-2">
         <Picture
           image="/assets/ConcordParkNov 12 2021-0163.jpg?webp"
           href={"picture of leaves in a park in corcord"}
@@ -89,7 +89,7 @@ const PictureViewer = (props) => {
           height={200}
           width={300}
         />
-      </div>
+      </section>
     </>
   );
 };

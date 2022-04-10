@@ -3,10 +3,10 @@ import Twitter from "./svg/twitter";
 
 const Footer = (props) => {
   return (
-    <div className=" flex flex-row justify-center py-10 gap-6">
+    <footer className=" flex flex-row justify-center py-10 gap-6">
       <Twitter />
       <Linkedin />
-    </div>
+    </footer>
   );
 };
 
