@@ -3,7 +3,7 @@ import Image from "next/image";
 const Intro = (props) => {
   return (
     <>
-      <div className="bg-hero bg-cover bg-fixed flex justify-center">
+      <div className="bg-hero bg-cover bg-fixed flex justify-center sm:leading-relaxed">
         <div className="flex sm:h-96 sm:flex-row sm:justify-center items-center p-8 sm:gap-x-20 flex-col max-w-7xl">
           <div className="sm:basis-1/4 h-auto w-40 py-6">
             <Image
@@ -23,7 +23,7 @@ const Intro = (props) => {
           text-center basis-1/2 font-medium"
           >
             Hello! Im{" "}
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
+            <span className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-ui-purple to-ui-blue">
               Brian Colclough
             </span>
             , an aspiring software engineer and amature photographer! I am

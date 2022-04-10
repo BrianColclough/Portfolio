@@ -3,7 +3,7 @@ import TypeScriptSVG from "./svg/TypeScript";
 function CurrentlyLearning() {
   return (
     <>
-      <div className="flex justify-center subpixel-antialiased">
+      <div className="flex justify-center subpixel-antialiased sm:leading-relaxed">
         <div className=" mx-2 mt-4 max-w-5xl rounded-2xl shadow-xl">
           <div className="text-slate-800 bg-ui-blue rounded-t-2xl font-sans py-2 text-xl text-center underline decoration-ui-pink underline-offset-2">
             Currently Learning
@@ -14,7 +14,7 @@ function CurrentlyLearning() {
                 <div className="font-normal">
                   <div>
                     Right now I am currently learning{" "}
-                    <span className="italic underline decoration-ui-pink">
+                    <span className="italic underline decoration-ui-pink underline-offset-2">
                       TypeScript
                     </span>{" "}
                     and transitioning my website over to it.

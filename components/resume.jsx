@@ -1,15 +1,15 @@
 const Resume = (props) => {
   return (
     <>
-      <div className="flex items-center flex-col ">
+      <div className="flex items-center flex-col sm:leading-relaxed">
         <div
           className="p-8 font-sans subpixel-antialiased font-normal
-         text-slate-500 sm:w-5/6 justify-center sm:max-w-7xl max-w-full"
+         text-slate-600 sm:w-5/6 justify-center sm:max-w-7xl max-w-full"
         >
           <p className="text-3xl text-center font-medium">Resume</p>
 
           <div>
-            <div className="text-2xl text-purple-400 font-medium pb-0">
+            <div className="text-2xl text-ui-purple font-medium pb-0">
               Career Summary
             </div>
             <div className="pt-0 pb-1">
@@ -38,7 +38,7 @@ const Resume = (props) => {
           </div>
 
           <div>
-            <div className="text-2xl text-purple-400 font-medium pt-1">
+            <div className="text-2xl text-ui-purple font-medium pt-1">
               Skills
             </div>
             <div>
@@ -122,7 +122,7 @@ const Resume = (props) => {
           </div>
 
           <div>
-            <p className="text-2xl pt-2 text-purple-400 font-medium ">
+            <p className="text-2xl pt-2 text-ui-purple font-medium ">
               Work History
             </p>
             <div className="flex flex-col text-xl font-medium md:flex-row md:gap-3 items-baseline">
