@@ -1,4 +1,4 @@
-const GithubSVG = (propos) => {
+const GithubSVG = (props) => {
   return (
     <a href="https://github.com/BrianColclough/Portfolio">
       <svg
