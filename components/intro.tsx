@@ -13,6 +13,7 @@ const Intro = (props) => {
               layout="responsive"
               objectFit="contain"
               objectPosition="50% 50%"
+              sizes="50vw"
               width="50vw"
               height="50vw"
               priority
