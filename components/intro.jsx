@@ -19,7 +19,7 @@ const Intro = (props) => {
             />
           </div>
           <div
-            className="bg-white shadow-lg font-display shadow-amber-600 rounded-2xl text-neutral-700 p-2 
+            className="bg-white shadow-lg font-sans shadow-amber-600 rounded-2xl text-neutral-700 p-2 
           text-center basis-1/2 font-medium"
           >
             Hello! Im{" "}
@@ -29,8 +29,8 @@ const Intro = (props) => {
             , an aspiring software engineer and amature photographer! I am
             currently a student at The University of North Carolina at Charlotte
             and I&apos;m expecting to graduate in May 2022. I am activly looking
-            for internships and or other full-time opportunities to grow and
-            learn. Currently, I am learning React and Go.
+            for full-time opportunities where I can learn and grow become a
+            great developer
           </div>
         </div>
       </div>

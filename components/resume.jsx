@@ -49,14 +49,14 @@ const Resume = (props) => {
           </div>
 
           <div>
-            <p className="text-2xl pt-2 text-purple-400 font-medium ">
+            <p className="text-2xl pt-2 text-ui-purple font-medium ">
               Education
             </p>
             <div className="flex flex-col md:flex-row md:gap-3 items-baseline">
               <div className="text-lg font-medium basis-10/12">
                 The University of North Carolina at Charlotte
               </div>
-              <div className="basis-2/12 text-purple-400 text-light italic text-lg pb-2 sm:pb-0 text-right">
+              <div className="basis-2/12 text-ui-orange text-light italic text-lg pb-2 sm:pb-0 text-right">
                 2018-Present
               </div>
             </div>
@@ -85,7 +85,7 @@ const Resume = (props) => {
             </div>
 
             <div>
-              <div className="font-semibold text-purple-400">Key Projects</div>
+              <div className="font-semibold text-ui-blue">Key Projects</div>
               <ul className="list-disc list-inside">
                 <li className="pl-3">
                   Meetup application built on Node.js, Express, and MongoDB
@@ -102,7 +102,7 @@ const Resume = (props) => {
             </div>
 
             <div>
-              <div className="font-semibold text-purple-400 pt-1">
+              <div className="font-semibold text-ui-blue pt-1">
                 Relevant Coursework
               </div>
               <ul className="list-disc list-inside">
@@ -132,7 +132,7 @@ const Resume = (props) => {
                 </span>
                 <span className="font-normal"> Charlotte, NC</span>
               </div>
-              <div className="sm:basis-2/12 font-normal text-purple-400 italic text-lg sm:text-right sm:pb-0 pb-2">
+              <div className="sm:basis-2/12 font-normal text-ui-orange italic text-lg sm:text-right sm:pb-0 pb-2">
                 2021-Present
               </div>
             </div>
