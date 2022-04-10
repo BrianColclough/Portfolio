@@ -1,48 +1,35 @@
+import TypeScriptSVG from "./svg/TypeScript";
+
 function CurrentlyLearning() {
   return (
     <>
-      <div className="text-slate-500 pt-2 md:pt-6 font-display text-xl text-center underline decoration-purple-400 underline-offset-2">
-        Currently Learning
-      </div>
-      <div className="flex justify-center ">
-        <div className="flex sm:w-5/6 md:max-w-5xl px-8 justify-center flex-col sm:flex-row sm:items-center rounded-lg">
-          <div className="flex flex-col sm:pr-4">
-            <div className="font-normal">
-              <div>
-                Right now I am currntly learning{" "}
-                <span className="italic underline decoration-pink-200">
-                  TypeScript
-                </span>{" "}
-                and transitioning my website over to it. .
-              </div>
-              <div className="sm:basis-1/2">
-                My current goal is to expand this website to include projects
-                that I have worked on throughout college to showcase my skills
-                as a developer. I also want to work on website responsiveness
-                and continue working on optimizations for fast load times and
-                better SEO.
-              </div>
-            </div>
+      <div className="flex justify-center subpixel-antialiased">
+        <div className=" mx-2 mt-4 max-w-5xl rounded-2xl shadow-xl">
+          <div className="text-slate-800 bg-ui-blue rounded-t-2xl font-sans py-2 text-xl text-center underline decoration-ui-pink underline-offset-2">
+            Currently Learning
           </div>
-          <div className="">
-            <svg
-              className="mx-auto pt-2"
-              width="150"
-              height="150"
-              fill="none"
-              version="1.1"
-              viewBox="0 0 512 512"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>TypeScript logo</title>
-              <rect width="512" height="512" rx="50" fill="#3178c6" />
-              <path
-                d="m317 407v50c8.1 4.2 18 7.3 29 9.4s23 3.1 35 3.1c12 0 23-1.1 34-3.4 11-2.3 20-6.1 28-11 8.1-5.3 15-12 19-21s7.1-19 7.1-32c0-9.1-1.4-17-4.1-24s-6.6-13-12-18c-5.1-5.3-11-10-18-14s-15-8.2-24-12c-6.6-2.7-12-5.3-18-7.9-5.2-2.6-9.7-5.2-13-7.8-3.7-2.7-6.5-5.5-8.5-8.4-2-3-3-6.3-3-10 0-3.4 0.89-6.5 2.7-9.3s4.3-5.1 7.5-7.1c3.2-2 7.2-3.5 12-4.6 4.7-1.1 9.9-1.6 16-1.6 4.2 0 8.6 0.31 13 0.94 4.6 0.63 9.3 1.6 14 2.9 4.7 1.3 9.3 2.9 14 4.9 4.4 2 8.5 4.3 12 6.9v-47c-7.6-2.9-16-5.1-25-6.5s-19-2.1-31-2.1c-12 0-23 1.3-34 3.8s-20 6.5-28 12c-8.1 5.4-14 12-19 21-4.7 8.4-7 18-7 30 0 15 4.3 28 13 38 8.6 11 22 19 39 27 6.9 2.8 13 5.6 19 8.3s11 5.5 15 8.4c4.3 2.9 7.7 6.1 10 9.5 2.5 3.4 3.8 7.4 3.8 12 0 3.2-0.78 6.2-2.3 9s-3.9 5.2-7.1 7.2-7.1 3.6-12 4.8c-4.7 1.1-10 1.7-17 1.7-11 0-22-1.9-32-5.7-11-3.8-21-9.5-30-17zm-84-123h64v-41h-179v41h64v183h51z"
-                clip-rule="evenodd"
-                fill="#fff"
-                fill-rule="evenodd"
-              />
-            </svg>
+          <div className="flex text-center justify-items-center sm:text-left sm:justify-center sm:items-center py-1">
+            <div className="flex sm:w-5/6 md:max-w-5xl  px-8 justify-center flex-col sm:flex-row sm:items-center rounded-lg">
+              <div className="flex flex-col sm:pr-4">
+                <div className="font-normal">
+                  <div>
+                    Right now I am currently learning{" "}
+                    <span className="italic underline decoration-ui-pink">
+                      TypeScript
+                    </span>{" "}
+                    and transitioning my website over to it.
+                  </div>
+                  <div className="sm:basis-1/2">
+                    My current goal is to expand this website to include
+                    projects that I have worked on throughout college to
+                    highlight my skills as a developer. I also want to work on
+                    website responsiveness and continue working on optimizations
+                    for fast load times and better SEO.
+                  </div>
+                </div>
+              </div>
+              <TypeScriptSVG />
+            </div>
           </div>
         </div>
       </div>

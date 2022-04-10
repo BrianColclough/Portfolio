@@ -19,7 +19,7 @@ const Intro = (props) => {
             />
           </div>
           <div
-            className="bg-white shadow-lg font-display shadow-amber-600 rounded-2xl text-neutral-700 p-2 
+            className="bg-white shadow-lg font-sans shadow-amber-600 rounded-2xl text-neutral-700 p-2 
           text-center basis-1/2 font-medium"
           >
             Hello! Im{" "}
