@@ -10,7 +10,7 @@ function CurrentlyLearning() {
         <div className="flex text-center justify-items-center sm:text-left sm:justify-center sm:items-center py-1">
           <div className="flex sm:w-5/6 md:max-w-5xl  px-8 justify-center flex-col sm:flex-row sm:items-center rounded-lg">
             <div className="flex flex-col sm:pr-4">
-              <div className="font-normal">
+              <div className="font-sans">
                 <div>
                   Right now I am currently learning{" "}
                   <span className="italic underline decoration-ui-pink text-ui-navy underline-offset-2">

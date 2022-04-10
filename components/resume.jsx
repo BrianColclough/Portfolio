@@ -10,10 +10,10 @@ const Resume = (props) => {
             Resume
           </h2>
 
-          <div>
-            <div className="text-2xl text-ui-purple font-medium pb-0">
+          <section>
+            <h3 className="text-2xl text-ui-purple font-medium pb-0">
               Career Summary
-            </div>
+            </h3>
             <div className="pt-0 pb-1">
               Software Engineer • Lifelong Learner • Web Developer
             </div>
@@ -37,23 +37,21 @@ const Resume = (props) => {
                 to learn and grow as a developer
               </li>
             </ul>
-          </div>
+          </section>
 
-          <div>
-            <div className="text-2xl text-ui-purple font-medium pt-1">
-              Skills
-            </div>
+          <section>
+            <h3 className="text-2xl text-ui-purple font-medium pt-1">Skills</h3>
             <div>
               JavaScript, Java, React, Python, Node.js, Go, HTML5, CSS, Restful
               web services, Web Development, TailwindCSS, C++, SQL, Git,
               Communication, Agile
             </div>
-          </div>
+          </section>
 
-          <div>
-            <p className="text-2xl pt-2 text-ui-purple font-medium ">
+          <section>
+            <h3 className="text-2xl pt-2 text-ui-purple font-medium ">
               Education
-            </p>
+            </h3>
             <div className="flex flex-col md:flex-row md:gap-3 items-baseline">
               <div className="text-lg font-medium basis-10/12">
                 The University of North Carolina at Charlotte
@@ -86,8 +84,8 @@ const Resume = (props) => {
               </ul>
             </div>
 
-            <div>
-              <div className="font-semibold text-ui-blue">Key Projects</div>
+            <section>
+              <h4 className="font-semibold text-ui-pink">Key Projects</h4>
               <ul className="list-disc list-inside">
                 <li className="pl-3">
                   Meetup application built on Node.js, Express, and MongoDB
@@ -101,12 +99,12 @@ const Resume = (props) => {
                   course using API&apos;s
                 </li>
               </ul>
-            </div>
+            </section>
 
-            <div>
-              <div className="font-semibold text-ui-blue pt-1">
+            <section>
+              <h4 className="font-semibold text-ui-pink pt-1">
                 Relevant Coursework
-              </div>
+              </h4>
               <ul className="list-disc list-inside">
                 <li className="pl-3">Software Engineering</li>
                 <li className="pl-3">
@@ -120,8 +118,8 @@ const Resume = (props) => {
                   Secure Programming and Penetration Testing
                 </li>
               </ul>
-            </div>
-          </div>
+            </section>
+          </section>
 
           <div>
             <p className="text-2xl pt-2 text-ui-purple font-medium ">
@@ -129,7 +127,7 @@ const Resume = (props) => {
             </p>
             <div className="flex flex-col text-xl font-medium md:flex-row md:gap-3 items-baseline">
               <div className="sm:basis-10/12">
-                <span className="underline">
+                <span className="underline decoration-ui-orange">
                   The University of North Carolina at Charlotte,
                 </span>
                 <span className="font-normal"> Charlotte, NC</span>

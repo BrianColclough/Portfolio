@@ -15,7 +15,7 @@ const Picture = (props) => {
   if (props.height > props.width) {
     return (
       <>
-        <div className="basis-full bg-transparent sm:transition sm:hover:scale-105 sm:basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-purple-300">
+        <div className="basis-full bg-transparent sm:transition sm:hover:scale-105 sm:basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-ui-pink">
           <Image
             className="rounded-lg "
             alt={props.alt}
@@ -34,7 +34,7 @@ const Picture = (props) => {
   } else {
     return (
       <>
-        <div className="basis-full bg-transparent sm:transition sm:hover:scale-105 sm:basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-purple-300">
+        <div className="basis-full bg-transparent sm:transition sm:hover:scale-105 sm:basis-1/4 shadow-xl hover:shadow-2xl hover:shadow-ui-pink">
           <Image
             className="rounded-lg "
             alt={props.alt}
