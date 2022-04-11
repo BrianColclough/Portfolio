@@ -10,6 +10,8 @@ const Intro = (props) => {
           className="object-center object-cover pointer-events-none"
           src="/assets/FujiRecipeTesting_Nov 24 2021-0028.webp?jpg"
           alt="Picture of leaves in botanical gardens at UNCC"
+          placeholder="blur"
+          blurDataURL="/assets/FujiRecipeTesting_Nov 24 2021-0028.webp?jpg"
           sizes="100vw"
           priority
         />
@@ -21,6 +23,8 @@ const Intro = (props) => {
                 alt="Headshot of Brian Colclough"
                 src="/assets/Uptown-Dec 03 2021-0188.jpg?webp"
                 layout="responsive"
+                placeholder="blur"
+                blurDataURL="/assets/Uptown-Dec 03 2021-0188.jpg?webp"
                 objectFit="contain"
                 objectPosition="50% 50%"
                 sizes="50vw"

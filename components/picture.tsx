@@ -22,6 +22,8 @@ const Picture = (props) => {
             className="rounded-lg "
             alt={props.alt}
             src={props.image}
+            placeholder="blur"
+            blurDataURL={props.image}
             layout="responsive"
             objectFit="contain"
             width={props.width}
