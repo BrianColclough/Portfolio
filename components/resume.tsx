@@ -6,7 +6,7 @@ const Resume = (props) => {
           className="p-8 font-sans subpixel-antialiased font-normal
          text-slate-600 sm:w-5/6 justify-center sm:max-w-7xl max-w-full"
         >
-          <h2 className="text-3xl text-center font-wotfard-500 underline decoration-ui-pink text-ui-navy">
+          <h2 className="text-3xl text-center font-wotfard-500 text-ui-pink">
             Resume
           </h2>
 
@@ -87,7 +87,7 @@ const Resume = (props) => {
             </div>
 
             <section>
-              <h4 className="font-wotfard-400-i text-ui-pink">Key Projects</h4>
+              <h4 className="font-wotfard-400-i text-ui-navy">Key Projects</h4>
               <ul className="list-disc list-inside">
                 <li className="pl-3">
                   Meetup application built on Node.js, Express, and MongoDB
@@ -104,7 +104,7 @@ const Resume = (props) => {
             </section>
 
             <section>
-              <h4 className="font-wotfard-400-i text-ui-pink pt-1">
+              <h4 className="font-wotfard-400-i text-ui-navy pt-1">
                 Relevant Coursework
               </h4>
               <ul className="list-disc list-inside">

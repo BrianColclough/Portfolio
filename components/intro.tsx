@@ -34,17 +34,17 @@ const Intro = (props) => {
               />
             </div>
             <div
-              className="bg-white z-10 shadow-lg font-sans shadow-amber-600 rounded-2xl text-neutral-700 p-2 
+              className="bg-ui-white z-10 shadow-lg font-sans shadow-ui-orange rounded-2xl text-slate-700 p-2 
           text-center basis-1/2 font-medium"
             >
               Hello! Im{" "}
-              <span className=" font-wotfard-400 bg-clip-text text-transparent bg-gradient-to-r from-ui-purple to-ui-blue">
+              <span className=" font-wotfard-400 bg-clip-text text-transparent bg-gradient-to-r from-ui-pink to-ui-purple">
                 Brian Colclough
               </span>
               , an aspiring software engineer and amature photographer! I am
               currently a student at The University of North Carolina at
               Charlotte and I&apos;m expecting to graduate in May 2022. I am
-              activly looking for full-time opportunities where I can learn and
+              actively looking for full-time opportunities where I can learn and
               grow become a great developer
             </div>
           </div>
