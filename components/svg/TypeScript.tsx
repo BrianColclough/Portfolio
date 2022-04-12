@@ -2,7 +2,7 @@ function TypeScriptSVG() {
   return (
     <a href="https://www.typescriptlang.org/">
       <svg
-        className="sm:transition h-14 w-14 sm:h-44 sm:w-44 block mx-auto mt-2"
+        className="sm:transition h-14 w-14 sm:h-32 sm:w-32 block mx-auto mt-2"
         viewBox="0 0 30 30"
         xmlns="http://www.w3.org/2000/svg"
         fill="#3178c6"

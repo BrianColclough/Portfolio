@@ -4,7 +4,7 @@ import Head from "next/head";
 
 const Layout = (props) => {
   return (
-    <>
+    <div className="bg-ui-white">
       <Head>
         <title>Brian Colclough</title>
         <meta
@@ -35,7 +35,7 @@ const Layout = (props) => {
       <Header />
       {props.children}
       <Footer />
-    </>
+    </div>
   );
 };
 
