@@ -15,7 +15,7 @@ const Intro = (props) => {
           sizes="100vw"
           priority
         />
-        <article className="flex z-1 w-full justify-center sm:leading-relaxed">
+        <article className="font-wotfard-300 flex z-1 w-full justify-center sm:leading-relaxed">
           <div className="flex sm:h-96 sm:flex-row sm:justify-center items-center p-8 sm:gap-x-20 flex-col max-w-7xl">
             <div className="sm:basis-1/4 h-auto w-40 py-6">
               <Image
@@ -38,7 +38,7 @@ const Intro = (props) => {
           text-center basis-1/2 font-medium"
             >
               Hello! Im{" "}
-              <span className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-ui-purple to-ui-blue">
+              <span className=" font-wotfard-400 bg-clip-text text-transparent bg-gradient-to-r from-ui-purple to-ui-blue">
                 Brian Colclough
               </span>
               , an aspiring software engineer and amature photographer! I am

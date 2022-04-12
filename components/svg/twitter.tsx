@@ -2,7 +2,7 @@ const Twitter = (props) => {
   return (
     <a href="https://twitter.com/BrianColclough3">
       <svg
-        className="sm:transition sm:hover:scale-125 sm:rounded-lg w-6 h-6 text-blue-300 fill-current"
+        className="sm:transition sm:hover:scale-125 w-6 h-6 text-blue-300 fill-current"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >

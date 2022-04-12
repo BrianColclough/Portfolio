@@ -2,7 +2,7 @@ const Linkedin = (props) => {
   return (
     <a href="https://www.linkedin.com/in/brian-colclough/">
       <svg
-        className="sm:transition sm:hover:scale-125 sm:rounded-lg w-6 h-6 text-blue-500 fill-current"
+        className="sm:transition sm:hover:scale-125 w-6 h-6 text-blue-500 fill-current"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512"
       >

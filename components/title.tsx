@@ -5,7 +5,7 @@ const Header = (props) => {
     <>
       <header className="justify-center flex">
         <div className="py-8 px-6 flex flex-col sm:flex-row sm:justify-between sm:gap-12 gap-2 w-5/6 max-w-7xl justify-center">
-          <h1 className="font-sans sm:basis-1/2 text-ui-navy text-3xl text-center sm:text-left ">
+          <h1 className="underline underline-offset-2 decoration-ui-blue font-sans sm:basis-1/2 font-wotfard-bold text-ui-navy text-3xl text-center sm:text-left ">
             Brian Colclough
           </h1>
           <Nav />

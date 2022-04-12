@@ -1,17 +1,17 @@
 const Resume = (props) => {
   return (
     <>
-      <section className="flex items-center flex-col sm:leading-relaxed">
+      <section className="flex items-center flex-col sm:leading-relaxed font-wotfard-300">
         <div
           className="p-8 font-sans subpixel-antialiased font-normal
          text-slate-600 sm:w-5/6 justify-center sm:max-w-7xl max-w-full"
         >
-          <h2 className="text-3xl text-center font-medium text-ui-navy">
+          <h2 className="text-3xl text-center font-wotfard-500 underline decoration-ui-pink text-ui-navy">
             Resume
           </h2>
 
-          <section>
-            <h3 className="text-2xl text-ui-purple font-medium pb-0">
+          <section className="font-wotfard-300">
+            <h3 className="text-2xl text-ui-purple pb-0 font-wotfard-400">
               Career Summary
             </h3>
             <div className="pt-0 pb-1">
@@ -39,8 +39,10 @@ const Resume = (props) => {
             </ul>
           </section>
 
-          <section>
-            <h3 className="text-2xl text-ui-purple font-medium pt-1">Skills</h3>
+          <section className="font-wotfard-300">
+            <h3 className="text-2xl text-ui-purple font-wotfard-400 pt-1">
+              Skills
+            </h3>
             <div>
               JavaScript, Java, React, Python, Node.js, Go, HTML5, CSS, Restful
               web services, Web Development, TailwindCSS, C++, SQL, Git,
@@ -49,14 +51,14 @@ const Resume = (props) => {
           </section>
 
           <section>
-            <h3 className="text-2xl pt-2 text-ui-purple font-medium ">
+            <h3 className="text-2xl pt-2 text-ui-purple font-wotfard-400 ">
               Education
             </h3>
             <div className="flex flex-col md:flex-row md:gap-3 items-baseline">
               <div className="text-lg font-medium basis-10/12">
                 The University of North Carolina at Charlotte
               </div>
-              <div className="basis-2/12 text-ui-aqua text-light italic text-lg pb-2 sm:pb-0 text-right">
+              <div className="basis-2/12 text-ui-aqua font-wotfard-300-i text-lg pb-2 sm:pb-0 text-right">
                 2018-Present
               </div>
             </div>
@@ -85,7 +87,7 @@ const Resume = (props) => {
             </div>
 
             <section>
-              <h4 className="font-semibold text-ui-pink">Key Projects</h4>
+              <h4 className="font-wotfard-400-i text-ui-pink">Key Projects</h4>
               <ul className="list-disc list-inside">
                 <li className="pl-3">
                   Meetup application built on Node.js, Express, and MongoDB
@@ -102,7 +104,7 @@ const Resume = (props) => {
             </section>
 
             <section>
-              <h4 className="font-semibold text-ui-pink pt-1">
+              <h4 className="font-wotfard-400-i text-ui-pink pt-1">
                 Relevant Coursework
               </h4>
               <ul className="list-disc list-inside">
@@ -122,7 +124,7 @@ const Resume = (props) => {
           </section>
 
           <div>
-            <p className="text-2xl pt-2 text-ui-purple font-medium ">
+            <p className="text-2xl pt-2 text-ui-purple font-wotfard-400 ">
               Work History
             </p>
             <div className="flex flex-col text-xl font-medium md:flex-row md:gap-3 items-baseline">
@@ -132,7 +134,7 @@ const Resume = (props) => {
                 </span>
                 <span className="font-normal"> Charlotte, NC</span>
               </div>
-              <div className="sm:basis-2/12 font-normal text-ui-aqua italic text-lg sm:text-right sm:pb-0 pb-2">
+              <div className="sm:basis-2/12 font-wotfard-300-i text-ui-aqua italic text-lg sm:text-right sm:pb-0 pb-2">
                 2021-Present
               </div>
             </div>
@@ -143,7 +145,9 @@ const Resume = (props) => {
                 improved my communication skills and found ways the facility can
                 better meet patrons needs.
               </p>
-              <p className="italic text-ui-navy">Patron Service Assistant</p>
+              <p className="font-wotfard-400-i text-ui-navy">
+                Patron Service Assistant
+              </p>
               <ul className="list-disc list-inside">
                 <li className="pl-3">
                   Interact with patrons for knowledge on how the facility can be
