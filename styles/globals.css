@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Open Sans";
-  src: url("../public/fonts/OPENSANS-REGULAR.TTF");
+  font-family: "wotfardregular";
+  src: url("../public/fonts/wotfard-regular-webfont.ttf");
   font-display: swap;
 }

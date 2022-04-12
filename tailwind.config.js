@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Open Sans", "sans-serif"],
+      sans: ["wotfard", "sans-serif"],
       serif: ["ui-serif", "Georgia"],
       mono: ["ui-monospace", "SFMono-Regular"],
       display: ["Manrope", "sans-serif"],
@@ -19,10 +19,12 @@ module.exports = {
       },
       colors: {
         "ui-blue": "#a1d9ff",
-        "ui-purple": "#B000B9",
+        "ui-purple": "#8566AA",
         "ui-pink": "#FF5F7E",
         "ui-orange": "#FFAB4C",
         "ui-navy": "#142F43",
+        "ui-white": "#F7ECDE",
+        "ui-aqua": "#8EC6C5",
       },
     },
   },
