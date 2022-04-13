@@ -134,7 +134,7 @@ const Resume = (props) => {
                 </span>
                 <span className="font-normal"> Charlotte, NC</span>
               </div>
-              <div className="sm:basis-2/12 font-wotfard-300-i text-ui-aqua italic text-lg sm:text-right sm:pb-0 pb-2">
+              <div className="sm:basis-2/12 font-wotfard-300-i text-ui-aqua text-lg sm:text-right sm:pb-0 pb-2">
                 2021-Present
               </div>
             </div>
