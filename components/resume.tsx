@@ -4,20 +4,20 @@ const Resume = (props) => {
       <section className="flex  items-center flex-col sm:leading-relaxed font-wotfard-300">
         <div
           className="p-8 font-sans subpixel-antialiased font-normal
-         text-ui-text-regular sm:w-5/6 justify-center sm:max-w-7xl max-w-full"
+         text-ui-text-regular sm:w-5/6 justify-center sm:max-w-5xl max-w-full"
         >
-          <h2 className="text-3xl text-center font-wotfard-500 text-ui-pink">
+          <h2 className="text-4xl mb-4 mt-6 text-center font-wotfard-500 text-ui-pink">
             Resume
           </h2>
 
           <section className="font-wotfard-300">
-            <h3 className="text-2xl text-ui-purple pb-0 font-wotfard-400">
+            <h3 className="text-3xl text-ui-purple pb-0 font-wotfard-400">
               Career Summary
             </h3>
             <div className="pt-0 pb-1">
               Software Engineer • Lifelong Learner • Web Developer
             </div>
-            <ul className="list-inside list-disc">
+            <ul className="list-inside sm:text-lg list-disc">
               <li>
                 <span className="font-wotfard-500 text-ui-text-darker">
                   Motivated and fast learning
@@ -44,7 +44,7 @@ const Resume = (props) => {
           </section>
 
           <section className="font-wotfard-300">
-            <h3 className="text-2xl text-ui-purple font-wotfard-400 pt-1">
+            <h3 className="text-3xl text-ui-purple font-wotfard-400 pt-1">
               Skills
             </h3>
             <div>
@@ -55,10 +55,10 @@ const Resume = (props) => {
           </section>
 
           <section>
-            <h3 className="text-2xl pt-2 text-ui-purple font-wotfard-400 ">
+            <h3 className="text-3xl pt-2 text-ui-purple font-wotfard-400 ">
               Education
             </h3>
-            <div className="flex flex-col md:flex-row md:gap-3 items-baseline">
+            <div className="flex flex-col sm:text-lg md:flex-row md:gap-3 items-baseline">
               <div className="text-lg text-ui-text-darker font-medium basis-10/12">
                 The University of North Carolina at Charlotte
               </div>
@@ -66,7 +66,7 @@ const Resume = (props) => {
                 2018-Present
               </div>
             </div>
-            <div className="sm:indent-8">
+            <div className="sm:indent-8 sm:text-lg">
               <p>
                 Bachelor&apos;s of Science in Computer Science, Software
                 Engineering Concentration
@@ -94,7 +94,7 @@ const Resume = (props) => {
               <h4 className="font-wotfard-400-i text-ui-text-darker">
                 Key Projects
               </h4>
-              <ul className="list-disc list-inside">
+              <ul className="list-disc list-inside sm:text-lg">
                 <li className="pl-3">
                   Meetup application built on Node.js, Express, and MongoDB
                 </li>
@@ -110,10 +110,10 @@ const Resume = (props) => {
             </section>
 
             <section>
-              <h4 className="font-wotfard-400-i text-ui-text-darker pt-1">
+              <h4 className="font-wotfard-400-i sm:text-lg text-ui-text-darker pt-1">
                 Relevant Coursework
               </h4>
-              <ul className="list-disc list-inside">
+              <ul className="list-disc list-inside sm:text-lg">
                 <li className="pl-3">Software Engineering</li>
                 <li className="pl-3">
                   Web-based Application Design and Development
@@ -130,7 +130,7 @@ const Resume = (props) => {
           </section>
 
           <div>
-            <p className="text-2xl pt-2 text-ui-purple font-wotfard-400 ">
+            <p className="text-3xl pt-2 text-ui-purple font-wotfard-400 ">
               Work History
             </p>
             <div className="flex flex-col text-xl font-medium md:flex-row md:gap-3 items-baseline">
@@ -140,11 +140,11 @@ const Resume = (props) => {
                 </span>
                 <span className="font-normal"> Charlotte, NC</span>
               </div>
-              <div className="sm:basis-2/12 font-wotfard-300-i text-ui-aqua text-lg sm:text-right sm:pb-0 pb-2">
+              <div className="sm:basis-2/12 font-wotfard-300-i text-ui-aqua text-lg sm:text-right sm:pb-0 pb-2 sm:text-lg">
                 2021-Present
               </div>
             </div>
-            <div className="pt-1">
+            <div className="pt-1 sm:text-lg">
               Second largest University in North Carolina by enrollment.
               <p>
                 In between classes I work at the University gym. I have quickly

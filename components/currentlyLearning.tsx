@@ -3,11 +3,11 @@ import TypeScriptSVG from "./svg/TypeScript";
 function CurrentlyLearning() {
   return (
     <section className="flex text-ui-text-regular justify-center subpixel-antialiased sm:leading-relaxed">
-      <div className="mt-4 bg-white rounded-t-3xl shadow-xl w-5/6 py-2 px-4 sm:max-w-7xl  rounded-2xl">
-        <h2 className="text-ui-pink text-start rounded-t-3xl px-4 font-wotfard-400 py-2 text-2xl ">
+      <div className="mt-4 bg-white rounded-t-3xl shadow-xl w-5/6 py-2 px-4 sm:max-w-5xl  rounded-2xl">
+        <h2 className="text-ui-pink text-start rounded-t-3xl px-4 font-wotfard-500 py-2 text-2xl ">
           Currently Learning
         </h2>
-        <div className="flex flex-col md:flex-row text-left justify-items-center font-wotfard-300 sm:justify-start ">
+        <div className="flex flex-col md:flex-row text-left justify-items-center font-wotfard-300 sm:text-lg sm:justify-start ">
           <div className="flex items-start flex-col sm:flex-row rounded-lg">
             <div className="flex flex-col items-start sm:pb-4 sm:px-4 sm:pr-4">
               <div>
