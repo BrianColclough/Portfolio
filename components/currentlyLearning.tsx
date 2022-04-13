@@ -4,7 +4,7 @@ function CurrentlyLearning() {
   return (
     <section className="flex text-ui-text-regular justify-center subpixel-antialiased sm:leading-relaxed">
       <div className="mt-4 bg-white rounded-t-3xl shadow-xl w-5/6 py-2 px-4 sm:max-w-5xl  rounded-2xl">
-        <h2 className="text-ui-pink text-start rounded-t-3xl px-4 font-wotfard-500 py-2 text-2xl ">
+        <h2 className="text-ui-pink uppercase tracking-wider text-center sm:text-start rounded-t-3xl px-4 font-wotfard-300 py-2 my-5 text-xl ">
           Currently Learning
         </h2>
         <div className="flex flex-col md:flex-row text-left justify-items-center font-wotfard-300 sm:text-lg sm:justify-start ">
@@ -12,7 +12,7 @@ function CurrentlyLearning() {
             <div className="flex flex-col items-start sm:pb-4 sm:px-4 sm:pr-4">
               <div>
                 Right now I am currently learning{" "}
-                <span className="font-wotfard-400-i underline decoration-ui-pink text-ui-navy underline-offset-2">
+                <span className="font-wotfard-400-i text-ui-bright-blue ">
                   TypeScript
                 </span>{" "}
                 and transitioning my website over to it.

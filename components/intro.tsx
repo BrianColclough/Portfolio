@@ -8,7 +8,7 @@ const Intro = (props) => {
           layout="fill"
           objectFit="cover"
           className="object-center object-cover pointer-events-none"
-          src="/assets/FujiRecipeTesting_Nov 24 2021-0028.webp?jpg"
+          src="/assets/break-Mar 06 2022-0099.jpg?webp"
           alt="Picture of leaves in botanical gardens at UNCC"
           placeholder="blur"
           blurDataURL="/assets/FujiRecipeTesting_Nov 24 2021-0028.webp?jpg"
@@ -34,7 +34,7 @@ const Intro = (props) => {
               />
             </div>
             <div
-              className="bg-ui-white z-10 shadow-lg font-sans shadow-ui-orange rounded-2xl text-ui-text-regular sm:text-lg p-2 
+              className="bg-ui-white z-10 shadow-lg rounded-2xl text-ui-text-regular sm:text-lg p-2 
           text-center basis-1/2 font-medium"
             >
               Hello! Im{" "}

@@ -6,18 +6,18 @@ const Resume = (props) => {
           className="p-8 font-sans subpixel-antialiased font-normal
          text-ui-text-regular sm:w-5/6 justify-center sm:max-w-5xl max-w-full"
         >
-          <h2 className="text-4xl mb-4 mt-6 text-center font-wotfard-500 text-ui-pink">
-            Resume
+          <h2 className="text-xl mb-4 mt-6 text-center font-wotfard-300 uppercase tracking-wider sm:mb-16 sm: mt-20 text-ui-pink">
+            RESUME
           </h2>
 
           <section className="font-wotfard-300">
             <h3 className="text-3xl text-ui-purple pb-0 font-wotfard-400">
               Career Summary
             </h3>
-            <div className="pt-0 pb-1">
+            <div className="pt-0 pb-1 text-ui-gray mb-5">
               Software Engineer • Lifelong Learner • Web Developer
             </div>
-            <ul className="list-inside sm:text-lg list-disc">
+            <ul className="list-inside sm:text-lg list-disc mb-7">
               <li>
                 <span className="font-wotfard-500 text-ui-text-darker">
                   Motivated and fast learning
@@ -43,7 +43,7 @@ const Resume = (props) => {
             </ul>
           </section>
 
-          <section className="font-wotfard-300">
+          <section className="font-wotfard-300 mb-7">
             <h3 className="text-3xl text-ui-purple font-wotfard-400 pt-1">
               Skills
             </h3>
@@ -54,7 +54,7 @@ const Resume = (props) => {
             </div>
           </section>
 
-          <section>
+          <section className="mb-7">
             <h3 className="text-3xl pt-2 text-ui-purple font-wotfard-400 ">
               Education
             </h3>
@@ -62,7 +62,7 @@ const Resume = (props) => {
               <div className="text-lg text-ui-text-darker font-medium basis-10/12">
                 The University of North Carolina at Charlotte
               </div>
-              <div className="basis-2/12 text-ui-aqua font-wotfard-300-i text-lg pb-2 sm:pb-0 text-right">
+              <div className="basis-2/12 text-ui-gray font-wotfard-300-i text-lg pb-2 sm:pb-0 text-right">
                 2018-Present
               </div>
             </div>
@@ -90,7 +90,7 @@ const Resume = (props) => {
               </ul>
             </div>
 
-            <section>
+            <section className="mb-7">
               <h4 className="font-wotfard-400-i text-ui-text-darker">
                 Key Projects
               </h4>
@@ -140,7 +140,7 @@ const Resume = (props) => {
                 </span>
                 <span className="font-normal"> Charlotte, NC</span>
               </div>
-              <div className="sm:basis-2/12 font-wotfard-300-i text-ui-aqua text-lg sm:text-right sm:pb-0 pb-2 sm:text-lg">
+              <div className="sm:basis-2/12 font-wotfard-300-i text-ui-gray text-lg sm:text-right sm:pb-0 pb-2 sm:text-lg">
                 2021-Present
               </div>
             </div>
