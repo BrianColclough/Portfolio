@@ -2,7 +2,7 @@ import TypeScriptSVG from "./svg/TypeScript";
 
 function CurrentlyLearning() {
   return (
-    <section className="flex justify-center subpixel-antialiased sm:leading-relaxed">
+    <section className="flex text-ui-text-regular justify-center subpixel-antialiased sm:leading-relaxed">
       <div className="mt-4 bg-white rounded-t-3xl shadow-xl w-5/6 py-2 px-4 sm:max-w-7xl  rounded-2xl">
         <h2 className="text-ui-pink text-start rounded-t-3xl px-4 font-wotfard-400 py-2 text-2xl ">
           Currently Learning

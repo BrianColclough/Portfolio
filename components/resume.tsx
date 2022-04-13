@@ -1,10 +1,10 @@
 const Resume = (props) => {
   return (
     <>
-      <section className="flex items-center flex-col sm:leading-relaxed font-wotfard-300">
+      <section className="flex  items-center flex-col sm:leading-relaxed font-wotfard-300">
         <div
           className="p-8 font-sans subpixel-antialiased font-normal
-         text-slate-600 sm:w-5/6 justify-center sm:max-w-7xl max-w-full"
+         text-ui-text-regular sm:w-5/6 justify-center sm:max-w-7xl max-w-full"
         >
           <h2 className="text-3xl text-center font-wotfard-500 text-ui-pink">
             Resume
@@ -19,20 +19,24 @@ const Resume = (props) => {
             </div>
             <ul className="list-inside list-disc">
               <li>
-                <b className="text-ui-navy">Motivated and fast learning</b>{" "}
+                <span className="font-wotfard-500 text-ui-text-darker">
+                  Motivated and fast learning
+                </span>{" "}
                 software developer with experience developing web applications,
-                working in teams, and the Software Devleopment Life Cycle
+                working in teams, and the Software Development Life Cycle
                 (SDLC).
               </li>
               <li>
-                <b className="text-ui-navy">Strong communicator</b> with a deep
-                understanding of team dynamics and what is needed to complete
-                projects on time.
+                <span className="font-wotfard-500 text-ui-text-darker">
+                  Strong communicator
+                </span>{" "}
+                with a deep understanding of team dynamics and what is needed to
+                complete projects on time.
               </li>
               <li>
-                <b className="text-ui-navy">
+                <span className="font-wotfard-500 text-ui-text-darker">
                   Dedicated to learning and problem solving.
-                </b>{" "}
+                </span>{" "}
                 Developing and writing code that is outside of my comfort zone
                 to learn and grow as a developer
               </li>
@@ -55,7 +59,7 @@ const Resume = (props) => {
               Education
             </h3>
             <div className="flex flex-col md:flex-row md:gap-3 items-baseline">
-              <div className="text-lg font-medium basis-10/12">
+              <div className="text-lg text-ui-text-darker font-medium basis-10/12">
                 The University of North Carolina at Charlotte
               </div>
               <div className="basis-2/12 text-ui-aqua font-wotfard-300-i text-lg pb-2 sm:pb-0 text-right">
@@ -87,7 +91,9 @@ const Resume = (props) => {
             </div>
 
             <section>
-              <h4 className="font-wotfard-400-i text-ui-navy">Key Projects</h4>
+              <h4 className="font-wotfard-400-i text-ui-text-darker">
+                Key Projects
+              </h4>
               <ul className="list-disc list-inside">
                 <li className="pl-3">
                   Meetup application built on Node.js, Express, and MongoDB
@@ -104,7 +110,7 @@ const Resume = (props) => {
             </section>
 
             <section>
-              <h4 className="font-wotfard-400-i text-ui-navy pt-1">
+              <h4 className="font-wotfard-400-i text-ui-text-darker pt-1">
                 Relevant Coursework
               </h4>
               <ul className="list-disc list-inside">
