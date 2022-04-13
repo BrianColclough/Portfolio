@@ -11,7 +11,7 @@ const Intro = (props) => {
           src="/assets/break-Mar 06 2022-0099.jpg?webp"
           alt="Picture of leaves in botanical gardens at UNCC"
           placeholder="blur"
-          blurDataURL="/assets/FujiRecipeTesting_Nov 24 2021-0028.webp?jpg"
+          blurDataURL="/assets/break-Mar 06 2022-0099.jpg?webp"
           sizes="100vw"
           priority
         />
