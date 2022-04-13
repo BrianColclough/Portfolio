@@ -38,6 +38,8 @@ module.exports = {
         "ui-navy": "#142F43",
         "ui-aqua": "#8EC6C5",
         "ui-white": "#eef1f5",
+        "ui-text-regular": "#090d11",
+        "ui-text-darker": "#20232c",
       },
     },
   },
