@@ -43,12 +43,14 @@ const Picture = (props) => {
             className="rounded-lg "
             alt={props.alt}
             src={props.image}
+            placeholder="blur"
             layout="responsive"
+            blurDataURL={props.image}
             objectFit="contain"
             width={props.width}
             height={props.height}
             onClick={openHandler}
-            quality={70}
+            quality={50}
           />
         </div>
         {pictureIsOpen && <Viewer onClose={closeHandler} image={props.image} />}
