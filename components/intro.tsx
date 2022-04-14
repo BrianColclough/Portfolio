@@ -11,7 +11,7 @@ const Intro = (props) => {
           src="/assets/break-Mar 06 2022-0099.jpg?webp"
           alt="Picture of leaves in botanical gardens at UNCC"
           placeholder="blur"
-          blurDataURL="/assets/break-Mar 06 2022-0099.jpg?webp"
+          blurDataURL="/assets/break-Mar 06 2022-0099.jpg"
           sizes="100vw"
           priority
         />
@@ -24,7 +24,7 @@ const Intro = (props) => {
                 src="/assets/Headshot.jpg?webp"
                 layout="responsive"
                 placeholder="blur"
-                blurDataURL="/assets/Headshot.jpg?webp"
+                blurDataURL="/assets/Headshot.jpg"
                 objectFit="contain"
                 objectPosition="50% 50%"
                 sizes="50vw"
