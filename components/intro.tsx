@@ -21,10 +21,10 @@ const Intro = (props) => {
               <Image
                 className="rounded-full"
                 alt="Headshot of Brian Colclough"
-                src="/assets/Headshot.jpg?webp"
+                src="/assets/headshot.jpg?webp"
                 layout="responsive"
                 placeholder="blur"
-                blurDataURL="/assets/Headshot.jpg"
+                blurDataURL="/assets/headshot.jpg"
                 objectFit="contain"
                 objectPosition="50% 50%"
                 sizes="50vw"
