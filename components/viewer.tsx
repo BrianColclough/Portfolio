@@ -6,9 +6,9 @@ const Viewer = (props) => {
     props.onClose();
   }
   return (
-    <div className="fixed overflow-hidden z-50 top-0 left-0 w-full h-full z-10 overscroll-contain">
+    <div className="fixed overflow-hidden z-50 top-0 left-0 w-full h-full overscroll-contain">
       <Image
-        className="backdrop-blur-2xl p-10 z-10 "
+        className="backdrop-blur-2xl p-10 z-50 "
         alt={props.alt}
         src={props.image}
         type="image/webp"
