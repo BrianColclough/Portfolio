@@ -19,13 +19,13 @@ const Intro = (props) => {
           <div className="flex sm:h-96 sm:flex-row sm:justify-center items-center p-8 sm:gap-x-20 flex-col max-w-5xl">
             <div className="sm:basis-1/4 h-auto w-40 py-6">
               <Image
-                className="rounded-full"
+                className="rounded-full z-10"
                 alt="Headshot of Brian Colclough"
                 src="/assets/headshot.jpg?webp"
                 layout="responsive"
                 placeholder="blur"
                 blurDataURL="/assets/headshot.jpg"
-                objectFit="contain"
+                objectFit="scale-down"
                 objectPosition="50% 50%"
                 sizes="50vw"
                 width="50vw"
