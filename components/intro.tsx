@@ -8,7 +8,7 @@ const Intro = (props) => {
           layout="fill"
           objectFit="cover"
           className="object-center object-cover pointer-events-none"
-          src="/assets/break-Mar 06 2022-0099.jpg?webp"
+          src="/assets/break-Mar 06 2022-0099.webp"
           alt="Picture of leaves in botanical gardens at UNCC"
           placeholder="blur"
           blurDataURL="/assets/break-Mar 06 2022-0099.webp"
@@ -21,7 +21,7 @@ const Intro = (props) => {
               <Image
                 className="rounded-full z-10"
                 alt="Headshot of Brian Colclough"
-                src="/assets/headshot.jpg?webp"
+                src="/assets/headshot.webp"
                 layout="responsive"
                 placeholder="blur"
                 blurDataURL="/assets/headshot.webp"
