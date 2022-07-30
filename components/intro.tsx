@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Intro = (props) => {
+const Intro = (props: any) => {
   return (
     <>
       <section className="relative">
