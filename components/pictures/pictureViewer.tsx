@@ -14,9 +14,9 @@ const PictureViewer = () => {
                         {Pictures.map(item => (
                             <React.Fragment key={item.id}>
                                 <div className="basis-full h-fit w-fit flex flex-row items-center justify-center">
-                                        <img src={item.path}
-                                            className="rounded-lg max-h-screen"
-                                        />
+                                    <img src={item.path}
+                                        className="rounded-lg max-h-screen"
+                                    />
                                 </div>
                             </React.Fragment>
                         ))}

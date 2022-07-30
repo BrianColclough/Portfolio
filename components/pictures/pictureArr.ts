@@ -2,6 +2,16 @@ import IPicture from '../../types/picture'
 
 export const Pictures: IPicture[] = [
     {
+        id:16,
+        path: "/assets/Jul 15 2022-0951.webp",
+        description: "My cat chunk chilling in the bed"
+    },
+    {
+        id:15,
+        path: "/assets/Xmas-Dec 24 2021-0041.webp",
+        description: "Christmas picture"
+    },
+    {
         id:1,
         path: "/assets/break-Mar 06 2022-0099.webp",
         description: "Testing description"
