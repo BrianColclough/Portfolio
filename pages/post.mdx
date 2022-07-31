@@ -1,0 +1,26 @@
+import CenteredHeader from "../components/blog/centered-header.tsx";
+import Layout from "../components/layout.tsx";
+
+export default function blogLayout({ children }) {
+  return (
+    <Layout>
+      <section className="flex  items-center flex-col sm:leading-relaxed font-wotfard-300 pt-4">
+        <div
+          className="font-sans subpixel-antialiased font-normal
+                    text-ui-text-regular sm:w-5/6 justify-center sm:max-w-5xl max-w-full"
+        >
+          <div className="flex flex-row flex-wrap justify-center gap-4">
+            <article className="prose prose-headings:text-ui-bright-blue">
+              {children}
+            </article>
+          </div>
+        </div>
+      </section>
+    </Layout>
+  );
+}
+
+# How I got my first job fresh out of college with no experience
+
+Graduating college is scary, trust me I know, but being a computer science
+student all I ever heard about was how hard it was going to be to graduate
