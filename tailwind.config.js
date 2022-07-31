@@ -1,7 +1,7 @@
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx,md,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,md,mdx}",
   ],
   theme: {
     fontFamily: {
@@ -27,9 +27,6 @@ module.exports = {
       gap: {
         11: "1rem",
       },
-      backgroundImage: {
-        hero: "url('/assets/FujiRecipeTesting_Nov 24 2021-0028.webp?jpg')",
-      },
       colors: {
         "ui-blue": "#3097FF",
         "ui-bright-blue": "#2D2ADE",
@@ -45,5 +42,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"),
+    // ...
+  ],
 };
