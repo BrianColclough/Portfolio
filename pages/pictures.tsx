@@ -4,7 +4,7 @@ import PictureViewer from "../components/pictures/pictureViewer";
 export default function Home() {
   return (
     <Layout>
-        <PictureViewer/>
+      <PictureViewer />
     </Layout>
   );
 }

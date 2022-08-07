@@ -41,11 +41,11 @@ const Intro = (props: any) => {
               <span className=" font-wotfard-400 bg-clip-text text-transparent bg-gradient-to-r from-ui-pink to-ui-purple">
                 Brian Colclough
               </span>
-              , an aspiring software engineer and amateur photographer! I am
-              currently a student at The University of North Carolina at
-              Charlotte and I&apos;m expecting to graduate in May 2022. I am
-              actively looking for full-time opportunities where I can learn and
-              grow become a great developer
+              , an entry level software engineer. Right now, im currently interested
+              in web development and am working to turn my website into a personal blog/space
+              where I can share the pictures I take as well as stories from places and things I 
+              do. Down the line when I have more knowledge about programming and software
+              engineering I hope to share that knowledge too.
             </div>
           </div>
         </article>
