@@ -4,7 +4,7 @@ import Head from "next/head";
 
 const Layout = (props) => {
   return (
-    <div className="bg-ui-white">
+    <div className="relative bg-ui-white min-h-screen pb-24">
       <Head>
         <title>Brian Colclough</title>
         <meta

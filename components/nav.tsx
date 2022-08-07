@@ -15,7 +15,7 @@ const Nav = (props) => {
             Pictures
           </a>
         </Link>
-        <Link href="/post">
+        <Link href="/blog">
           <a className="sm:transition  sm:rounded-lg sm:ease-in-out sm:delay-75 sm:px-2 sm:hover:scale-110 hover:text-ui-purple">
             Blog
           </a>
