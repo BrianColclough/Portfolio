@@ -19,9 +19,9 @@ module.exports = {
       "wotfard-500-i": ["wotfardsemibold_italic", "sans-serif"],
       "wotfard-thin-i": ["wotfardthin_italic", "sans-serif"],
       "wotfard-bold-i": ["wotfardbold_italic", "sans-serif"],
+      "mono": ["FiraCode-Regular"],
       serif: ["ui-serif", "Georgia"],
-      mono: ["ui-monospace", "SFMono-Regular"],
-      display: ["Manrope", "sans-serif"],
+      display: ["Manbope", "sans-serif"],
     },
     extend: {
       gap: {
