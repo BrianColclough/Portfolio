@@ -12,11 +12,11 @@ const PictureViewer = () => {
           <div className="flex flex-row flex-wrap justify-center gap-4">
             {Pictures.map((item) => (
               <React.Fragment key={item.id}>
-                <div className="basis-full h-fit w-fit flex flex-row items-center justify-center">
+                <div className="basis-full h-fit w-fit flex flex-row items-center justify-center mx-2 sm:mx-0">
                   <img
                     src={item.path}
-                    alt={item.description}
                     className="rounded-lg max-h-screen"
+                    alt="{item.description}"
                   />
                 </div>
               </React.Fragment>
