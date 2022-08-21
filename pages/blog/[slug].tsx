@@ -15,9 +15,10 @@ function PostPage({ frontMatter, mdxSource }) {
             text-ui-text-regular sm:w-5/6 justify-center sm:max-w-5xl max-w-full"
         >
           <div className="flex flex-row flex-wrap justify-center gap-4 w-full">
-            <article className="prose sm:prose-lg prose-h1:text-ui-bright-blue prose-h2:text-ui-purple sm:w-[48rem] px-2 my-2">
+            <article className="prose sm:prose-lg prose-h1:text-ui-bright-blue prose-h2:text-ui-pink max-w-none px-4 sm:px-2 my-2">
               <h1>{frontMatter.title}</h1>
-              <MDXRemote {...mdxSource} />
+              <div className="font-wotfard-200-i mt-0">{frontMatter.date}</div>
+              <MDXRemote {...mdxSource} components={components} />
             </article>
           </div>
         </div>

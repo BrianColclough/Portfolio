@@ -8,22 +8,20 @@ export default function BlogHome({ posts }) {
   return (
     <Layout>
       <div className="flex justify-center font-wotfard-300">
-        <div className="flex flex-col max-w-5xl">
+        <div className="flex sm:max-w-5xl flex-col px-4 sm:px-2">
           <h1 className="text-2xl"> Blog Posts </h1>
-          <div className="flex justify-center items-center flex-col ">
-            <div className="flex flex-row gap-4 flex-wrap mt-4">
-              {posts.filter((post) => post.frontMatter.posted == true).map((post, index: number) => (
+          <div className="flex justify-center flex-col sm:flex-row gap-4 mt-4 sm:px-4 px-2 cursor-pointer">
+              {posts.filter((post: any) => post.frontMatter.posted == true).map((post: any, index: number) => (
                 <Link href={"/blog/" + post.slug} passHref key={index}>
                   <div className="bg-ui-blue/25 p-4 rounded-3xl w-80">
                     <p className="font-wotfard-400 pb-0 mb-0">
                       {post.frontMatter.title}
                     </p>
-                    <small>{post.frontMatter.date}</small>
+                    <small className="font-wotfard-200-i">{post.frontMatter.date}</small>
                     <p>{post.frontMatter.description}</p>
                   </div>
                 </Link>
               ))}
-            </div>
           </div>
         </div>
       </div>
