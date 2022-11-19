@@ -1,5 +1,3 @@
-import TypeScriptSVG from "./svg/TypeScript";
-
 function CurrentlyLearning() {
   return (
     <section className="flex text-ui-text-regular justify-center subpixel-antialiased sm:leading-relaxed">
@@ -13,22 +11,27 @@ function CurrentlyLearning() {
               <div>
                 Right now I am currently learning{" "}
                 <span className="font-wotfard-400-i text-ui-bright-blue ">
-                  TypeScript
+                  React
                 </span>{" "}
-                and transitioning my website over to it.
+                which is funny because this website is built on React, but I feel I
+                have so much more to learn
               </div>
               <div className="sm:basis-1/2">
-                My current goal is to expand this website to include projects
-                that I have worked on throughout college to highlight my skills
-                as a developer. I also want to work on website responsiveness
-                and continue working on optimizations for fast load times and
-                better SEO.
+                I am going to transition this website over to a blog where I
+                write about different topics that might not always be
+                programming related. I&apos;m interested in lots of things and I
+                think when I learn about something new I want to try to help
+                others who might have the same difficulties I did.
               </div>
             </div>
           </div>
-          <aside>
-            <TypeScriptSVG />
-          </aside>
+          <div>
+            <img
+              src="/icons/React-icon.svg"
+              alt="react icon"
+              className="w-72 pr-4"
+            />
+          </div>
         </div>
       </div>
     </section>

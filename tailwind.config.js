@@ -1,7 +1,7 @@
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx,md,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,md,mdx}",
   ],
   theme: {
     fontFamily: {
@@ -19,16 +19,13 @@ module.exports = {
       "wotfard-500-i": ["wotfardsemibold_italic", "sans-serif"],
       "wotfard-thin-i": ["wotfardthin_italic", "sans-serif"],
       "wotfard-bold-i": ["wotfardbold_italic", "sans-serif"],
+      "mono": ["FiraCode-Regular"],
       serif: ["ui-serif", "Georgia"],
-      mono: ["ui-monospace", "SFMono-Regular"],
-      display: ["Manrope", "sans-serif"],
+      display: ["Manbope", "sans-serif"],
     },
     extend: {
       gap: {
         11: "1rem",
-      },
-      backgroundImage: {
-        hero: "url('/assets/FujiRecipeTesting_Nov 24 2021-0028.webp?jpg')",
       },
       colors: {
         "ui-blue": "#3097FF",
@@ -45,5 +42,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"),
+    // ...
+  ],
 };

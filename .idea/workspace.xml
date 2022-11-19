@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff5a76cd-f43b-400f-87a7-1eeccb1f293f" name="Changes" comment="">
+    <list default="true" id="ff5a76cd-f43b-400f-87a7-1eeccb1f293f" name="Changes" comment=".idea stuff">
+      <change afterPath="$PROJECT_DIR$/public/icons/React-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/currentlyLearning.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/currentlyLearning.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/blog/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/[slug].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/blog/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/how-i-got-my-job.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/posts/how-i-got-my-job.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/newpost.mdx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +20,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="mdx-branch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="mdx-cherry-pick" />
+                    <option name="lastUsedInstant" value="1668875653" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="mdx-branch" />
+                    <option name="lastUsedInstant" value="1668875621" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Test" />
+                    <option name="lastUsedInstant" value="1668875620" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,20 +64,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/briancolclough/Documents/Coding/personal-website&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/briancolclough/Documents/Coding/personal-website/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/briancolclough/Documents/Coding/personal-website",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/briancolclough/Documents/Coding/personal-website/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,9 +91,48 @@
       <workItem from="1660925789437" duration="130000" />
       <workItem from="1660927229953" duration="13000" />
     </task>
+    <task id="LOCAL-00001" summary=".idea stuff">
+      <created>1668875794272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668875794272</updated>
+    </task>
+    <task id="LOCAL-00002" summary="looks for and automatically generates blog page and individual posts">
+      <created>1668875928819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668875928819</updated>
+    </task>
+    <task id="LOCAL-00003" summary=".idea stuff">
+      <created>1668875996101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668875996101</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="looks for and automatically generates blog page and individual posts" />
+    <MESSAGE value="better pictures on mobile and formatting" />
+    <MESSAGE value=".idea stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea stuff" />
   </component>
 </project>
