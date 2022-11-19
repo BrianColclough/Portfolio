@@ -4,15 +4,17 @@ import fs from "fs";
 import matter from "gray-matter";
 import { serialize } from "next-mdx-remote/serialize";
 import { MDXRemote } from "next-mdx-remote";
+import SyntaxHighlight from "../../components/blog/SyntaxHighlight";
+import Image from "next/image";
 
-function PostPage({ frontMatter, mdxSource }) {
+function PostPage({ frontMatter = null, mdxSource = null }) {
   const components = { Image, SyntaxHighlight };
   return (
     <Layout>
-      <section className="flex  items-center flex-col sm:leading-relaxed font-wotfard-300 pt-4">
+      <section className="flex justify-center sm:leading-relaxed font-wotfard-300 pt-4 ">
         <div
           className="font-sans subpixel-antialiased font-normal 
-            text-ui-text-regular sm:w-5/6 justify-center sm:max-w-5xl max-w-full"
+            text-ui-text-regular sm:w-5/6 justify-center sm:max-w-3xl max-w-full"
         >
           <div className="flex flex-row flex-wrap justify-center gap-4 w-full">
             <article className="prose sm:prose-lg prose-h1:text-ui-bright-blue prose-h2:text-ui-pink max-w-none px-4 sm:px-2 my-2">
@@ -54,6 +56,7 @@ const getStaticProps = async ({ params: { slug } }) => {
       frontMatter,
       slug,
       mdxSource,
+      fallback: false,
     },
   };
 };
